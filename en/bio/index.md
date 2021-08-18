@@ -4,7 +4,7 @@ lang: en
 lang-ref: bio
 ---
 
-<img src="/images/makelaar_kofi.jpg" alt="Sebastiaan Ammerlaan" class="fr w-third ml-auto br-100">
+<img src="/images/bio_rechts.jpg" alt="Sebastiaan Ammerlaan" class="fr w-third ml-auto br-100">
 
 Ever since Sebastiaan (Bas) Ammerlaan begged his parents for violin lessons when he was four, music took a strong hold of him. He started singing when he joined the [University College Roosevelt](https://www.ucr.nl) university choir as part of his minor in viola playing. He also studied musicology there. From 2013 on he studied classical singing at the [HKU Utrecht Conservatory](https://www.hku.nl/Home/Education/Bachelors/Conservatorium1.htm), first with [Jón Þorsteinsson](https://www.jonthorsteinsson.com) and from 2016–2020 with [Selma Harkink](http://www.selmaharkink.com). 
 
@@ -17,13 +17,14 @@ In 2017, he founded the [Ensemble for New Music](/ensembles/enm) with soprano Ve
 <div class="mw9 center ph3-ns mt5">
   <div class="cf ph2-ns">
     <div class="fl w-100 w-third-ns pa2">
-      <img src="/images/monnik.jpg" alt="Sebastiaan Ammerlaan" class="br3">
+      <img src="/images/actiefoto.jpg" alt="Sebastiaan Ammerlaan" class="br3">
+    </div>
+    <div class="fl w-100 w-third-ns pa2 tr f7">
+      <img src="/images/nnknxt_Bas002.jpg" alt="Sebastiaan Ammerlaan" class="br3">
+      <a href=https://easonlamstudio.myportfolio.com/>Eason Lam photography</a>
     </div>
     <div class="fl w-100 w-third-ns pa2">
-      <img src="/images/Marlowe.jpg" alt="Sebastiaan Ammerlaan" class="br3">
-    </div>
-    <div class="fl w-100 w-third-ns pa2">
-      <img src="/images/bas_maki.jpg" alt="Sebastiaan Ammerlaan" class="br3">
+      <img src="/images/WS2016.jpg" alt="Sebastiaan Ammerlaan" class="br3">
     </div>
   </div>
 </div>
