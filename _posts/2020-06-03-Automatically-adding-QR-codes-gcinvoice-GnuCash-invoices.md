@@ -14,7 +14,7 @@ published: true
   	<figcaption class="tc">Invoice with automatically added SEPA Credit Transfer QR code.</figcaption>
 </figure>
 
-While working on my [previous post](https://bammerlaan.nl/posts/GnuCash-LaTeX-and-gcinvoice-for-pretty-invoices) on making prettier invoices for your GnuCash invoices, a student asked me if he could also pay using a [Tikkie](https://www.tikkie.me/). This is a Dutch service that lets you send quick payment requests links through whatever messenger app you prefer, quickly allowing recipients to pay with their bank's mobile app.
+While working on my [previous post](/posts/GnuCash-LaTeX-and-gcinvoice-for-pretty-invoices) on making prettier invoices for your GnuCash invoices, a student asked me if he could also pay using a [Tikkie](https://www.tikkie.me/). This is a Dutch service that lets you send quick payment requests links through whatever messenger app you prefer, quickly allowing recipients to pay with their bank's mobile app.
 
 I looked into this a bit, and it turns out using Tikkie for a business of my size costs € 0,25 per transaction. Not too much in the grand scheme of things, but I'd really like to avoid as many overhead costs as possible for my small business.
 
