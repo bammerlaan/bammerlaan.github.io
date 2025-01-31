@@ -16,4 +16,4 @@ Na mijn deelname aan NKK NXT, het talentontwikkelingsprogramma van het [Nederlan
 
 </a>
 
-Ik heb een nieuwe website voor het nieuwe ensemble gemaakt, te vinden op [https://immixvocalensemble.com](https://immixvocalensemble.com). Deze is volledig open source, dus de broncode is colledig in te zien en te gebruiken om te helpen bij het maken van een andere website. Dit past bij ons eigen jonge idealisme. 
+Ik heb een nieuwe website voor het nieuwe ensemble gemaakt, te vinden op [https://immixvocalensemble.com](https://immixvocalensemble.com). Deze is volledig open source, dus de broncode is volledig in te zien en te gebruiken om te helpen bij het maken van een andere website. Dit past bij ons eigen jonge idealisme. 
