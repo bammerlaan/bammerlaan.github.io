@@ -266,8 +266,16 @@ GEM
       unicode-display_width (~> 1.1, >= 1.1.1)
     typhoeus (1.4.1)
       ethon (>= 0.9.0)
+ dependabot/bundler/tzinfo-1.2.10
+    tzinfo (1.2.10)
+      thread_safe (~> 0.1)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.8)
+
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
+ master
     unicode-display_width (1.8.0)
     uri (1.0.2)
     webrick (1.9.1)
