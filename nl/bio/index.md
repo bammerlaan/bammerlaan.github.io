@@ -2,7 +2,16 @@
 title: Biografie
 lang: nl
 lang-ref: bio
+carousels:
+  - images:
+    - image: /images/carousel/nnknxt_g009.jpg
+    - image: /images/carousel/UBUROI_barthkPEL_20230525_-_Maxime_debruin082.jpg
+    - image: /images/carousel/UBUROI_barthkPEL_20230525_-_Maxime_debruin060.jpg
+    - image: /images/carousel/20220803_Vader_-_Coraline_Groen_242.jpg
+
 ---
+
+{% include carousel.html height="50" unit="%" duration="7" number="1" %}
 
 <img src="/images/bio_rechts.jpg" alt="Sebastiaan Ammerlaan" class="fr w-third ml-auto br-100">
 
