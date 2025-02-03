@@ -25,5 +25,5 @@ staticman:
   path: "_data/comments/{{ page.lang-ref }}"
 markdown: CommonMarkGhPages
 commonmark:
-  options: ["SMART", "FOOTNOTES"]
+  options: ["SMART", "FOOTNOTES", "UNSAFE"]
   extensions: ["strikethrough", "autolink", "table", "tagfilter"]
