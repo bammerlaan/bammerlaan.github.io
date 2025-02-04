@@ -69,7 +69,7 @@ There are three options for following singing lessons:
 # Terms &amp; conditions
 
 <!-- *   **The rates include 21% BTW.** (The reduced rate does not pay VAR, see the  [website of the Netherlands Tax and Customs Administration](http://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/tarieven_en_vrijstellingen/vrijstellingen/onderwijs/vrijstelling_voor_onderwijs_in_muziek_dans_drama_beeldende_vorming_en_circustechnieken).) -->
-*   Each lesson package must have been paid in full at the time of the first lesson. Otherwise, the per-lesson rate applies.
+*   Each lesson package must have been paid in full at the time of the first lesson. Otherwise, the rate for separate lessons applies.
 *   I offer no refunds for a paid lesson.
 *   Any lesson cancelled with less than 24-hours notice prior to the agreed time will be charged at the full lesson rate (reasons beyond your control are acceptable in consultation with me).
 *   A lesson takes 60 minutes, including arrival and departure.
