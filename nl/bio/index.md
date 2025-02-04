@@ -33,7 +33,7 @@ Hij vormt een vast duo met pianist [Geert Omta](https://www.geertomta.nl/) waarm
       <a href=https://easonlamstudio.myportfolio.com/>Eason Lam photography</a>
     </div>
     <div class="fl w-100 w-third-ns pa2">
-      <img src="/images/WS2016.jpg" alt="Sebastiaan Ammerlaan" class="br3">
+      <img src="/images/GrowingMusic2022.jpg" alt="Sebastiaan Ammerlaan" class="br3">
     </div>
   </div>
 </div>
