@@ -23,7 +23,7 @@ He forms a duo with pianist [Geert Omta](https://www.geertomta.nl/). They organi
     </div>
     <div class="fl w-100 w-third-ns pa2 tr f7">
       <img src="/images/nnknxt_Bas002.jpg" alt="Sebastiaan Ammerlaan" class="br3">
-      <a href=https://easonlamstudio.myportfolio.com/>Eason Lam photography</a>
+      <a href=https://bettercallchun.com target='_blank' rel='noopener noreferrer'>CHUN Photography</a>
     </div>
     <div class="fl w-100 w-third-ns pa2">
       <img src="/images/GrowingMusic2022.jpg" alt="Sebastiaan Ammerlaan" class="br3">
