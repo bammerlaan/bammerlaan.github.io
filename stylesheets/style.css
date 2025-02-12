@@ -229,8 +229,8 @@ nav > ul > li .dropdown__title {
 nav > ul > li > a:hover, nav > ul > li > a:focus,
 nav > ul > li .dropdown__title:hover,
 nav > ul > li .dropdown__title:focus {
-  border-top-color: pink;
-  color: pink;
+  border-top-color: var(--bammerlaan-grijs);
+  color: var(--bammerlaan-grijs);
 }
 nav ul {
   list-style: none;
@@ -249,6 +249,7 @@ nav ul li {
   display: inline-flex;
   align-items: center;
 }
+/* Pijltje achter dropdown-menus */
 .dropdown .dropdown__title:after {
   content: "";
   border: 0.35rem solid transparent;
@@ -271,6 +272,7 @@ nav ul li {
   /* border-radius: 4px; */
   box-shadow: 0 0.15em 0.25em rgba(0, 0, 0, 1);
 }
+/* Link-tekst */
 .dropdown .dropdown__menu a {
   color: var(--bammerlaan-blauw);
   display: block;
@@ -285,6 +287,7 @@ nav ul li {
   outline: none;
   /* background-color: rgba(102, 51, 153, 1); */
 }
+/* Pijltje bovenaan dropdown-menu */
 .dropdown:after {
   content: "";
   border: 0.5rem solid transparent;
@@ -297,8 +300,9 @@ nav ul li {
   opacity: 0;
   will-change: opacity;
 }
+/* Geen idee */
 .dropdown:hover .dropdown__title, .dropdown:focus-within .dropdown__title {
-  border-top-color: var(--bammerlaan-blauw);
+  border-top-color: var(--bammerlaan-grijs);
 }
 .dropdown:hover .dropdown__menu, .dropdown:focus-within .dropdown__menu {
   opacity: 1;
@@ -312,16 +316,16 @@ nav ul li {
   opacity: 1;
 }
 
-.navbar-link a:hover,
+/* .navbar-link a:hover,
 a:focus,
 a:active {
   text-decoration: none;
   /* font-family: FiraSansRegular, sans-serif; */
   
-} 
+}  */
 
-.button-text {
+/* .button-text {
   text-decoration: none;
   /* font-family: FiraSansRegular, sans-serif; */
   /* color: var(--bammerlaan-blauw) !important; */
-} 
+}  */

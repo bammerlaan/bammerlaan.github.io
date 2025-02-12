@@ -8,8 +8,11 @@ aboutNav:
   en: "About"
   nl: "Over mij"
 bioNav:
-  en: "Bi&shy;o&shy;"
+  en: "Bi&shy;o"
   nl: "Bi&shy;o&shy;gra&shy;fie"
+repertoireNav:
+  en: "Re&shy;per&shy;toire"
+  nl: "Re&shy;per&shy;toire"
 recordingsNav:
   en: "Re&shy;cor&shy;dings"
   nl: "Op&shy;na&shy;mes"

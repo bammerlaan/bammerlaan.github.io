@@ -49,7 +49,7 @@ carousels:
   {% assign posts = site.posts | where:"lang", page.lang %}
   {% for post in posts %}
   <li class="mv2">
-    <a href="{{ post.url }}" class="db pv1 link blue hover-mid-gray">
+    <a href="{{ post.url }}" class="db pv1 link hover-mid-gray">
       <time class="fr silver ttu">{{ post.date | date_to_string }} </time>
       {{ post.title }}
     </a>

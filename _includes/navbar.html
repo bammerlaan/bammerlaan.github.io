@@ -1,249 +1,153 @@
 
-<nav class="z-max dt w-100 border-box ph0 ph4-m ph5-l bg-white f4" aria-label="Main Navigation">
+<!-- Voeg "outline" toe aan class om handig te kijken waar het element precies komt -->
+<nav class="z-max bg-white f4 w-100 ph2 pv1" aria-label="Main Navigation">
   <!-- Hier het navmenu -->
-  <div class="dtc v-mid w-90-l w-80 tr">
-    <ul class="ph0">
+  <ul class="pa0 v-mid dt dt--fixed">
 
-      <!-- Home-knop, verdwijnt op mobile -->
-      <li class="dn dib-m dib-l link f4 f4-l mr1 mr4-m mr4-l">
-        {% if page.lang == 'nl' %}
-        <a class="f4 link bammerlaan-blauw hover-mid-gray dib-ns tc pa0 ph1 ph2-ns" style="" href=" {{ site.url }}">
+    <!-- ############# Desktop-versie -->
+
+    <!-- Home-knop, verdwijnt op mobile -->
+    <li class="dn dtc-ns link f4 ">
+      {% if page.lang == 'nl' %}
+      <a class="f4 link bammerlaan-blauw dib-ns tc pa0 ph1 ph2-ns" href=" {{ site.url }}">
+        Home
+        {% endif %}
+        {% if page.lang != 'nl' %}
+        <a class="f4 link bammerlaan-blauw dib-ns tc pa0 ph1 ph2-ns" href=" {{ site.url }}/{{ page.lang }}">
           Home
           {% endif %}
-          {% if page.lang != 'nl' %}
-          <a class="f4 link bammerlaan-blauw hover-mid-gray dib-ns tc pa0 ph1 ph2-ns" style="" href=" {{ site.url }}/{{ page.lang }}">
-            Home
-            {% endif %}
-          </a>
-      </li>
+        </a>
+    </li>
 
-      <!-- Bio-dropdown -->
-      <li class="f4 dropdown dib mr2 mr4-m mr4-l">
-        <!-- aria-expanded needs managed with Javascript -->
-        <button type="button" class="dropdown__title dib bammerlaan-blauw dib-ns tc pa0 ph1 ph2-ns" aria-expanded="false" style=""
-          aria-controls="sweets-dropdown">
-          {{ site.data.translations['aboutNav'][page.lang] }}
-        </button>
-        <ul class="dropdown__menu bg-black-30 tc" id="sweets-dropdown">
-          <li><a href="/{{page.lang}}/bio" class="f6 link bammerlaan-blauw hover-mid-gray dib-ns tc pa0 ph1 ph2-ns" style="">{{ site.data.translations['bioNav'][page.lang] }}</a></li>
-          <li><a href="/{{page.lang}}/concertagenda" class="f6 link bammerlaan-blauw hover-mid-gray dib-ns tc pa0 ph1 ph2-ns" style="">{{ site.data.translations['agendaNav'][page.lang] }}</a></li>
-          <li><a href="https://www.youtube.com/channel/UClcL5I8ybyGgUZSKI-AsOrA" class="f6 link bammerlaan-blauw hover-mid-gray dib-ns tc pa0 ph1 ph2-ns" target='_blank' rel='noopener noreferrer'>{{ site.data.translations['recordingsNav'][page.lang] }}</a></li>
-          <!-- <li><a href="/{{page.lang}}/immix/bloom" class="no-underline white hover-immix-marigold" style="">bloom</a></li>  -->
-        </ul>
-      </li>
+    <!-- Over mij-dropdown -->
+    <li class="f4 dropdown dn dtc-ns link ">
+      <!-- aria-expanded needs managed with Javascript -->
+      <button type="button" class="dropdown__title dib bammerlaan-blauw dib-ns tc pa0 ph1 ph2-ns" aria-expanded="false"
+        aria-controls="sweets-dropdown">
+        {{ site.data.translations['aboutNav'][page.lang] }}
+      </button>
+      <ul class="dropdown__menu bg-black-30 tc" id="sweets-dropdown">
+        <li><a href="/{{page.lang}}/bio" class="f5 link dib-ns tc pa0 ph1 ph2-ns">{{ site.data.translations['bioNav'][page.lang] }}</a></li>
+        <li><a href="/{{page.lang}}/repertoire" class="f5 link dib-ns tc pa0 ph1 ph2-ns">{{ site.data.translations['repertoireNav'][page.lang] }}</a></li>
+        <li><a href="https://www.youtube.com/channel/UClcL5I8ybyGgUZSKI-AsOrA" class="f5 link bammerlaan-blauw dib-ns tc pa0 ph1 ph2-ns" target='_blank' rel='noopener noreferrer'>{{ site.data.translations['recordingsNav'][page.lang] }}</a></li>
+        <!-- <li><a href="/{{page.lang}}/immix/bloom" class="no-underline white hover-immix-marigold">bloom</a></li>  -->
+      </ul>
+    </li>
 
-      <!-- Zangles-dropdown -->
-      <li class="f4 dropdown dib mr2 mr4-m mr4-l">
-        <!-- aria-expanded needs managed with Javascript -->
-        <button type="button" class="dropdown__title dib bammerlaan-blauw dib-ns tc pa0 ph1 ph2-ns" aria-expanded="false" style=""
-          aria-controls="sweets-dropdown">
-          {{ site.data.translations['zanglesNav'][page.lang] }}
-        </button>
-        <ul class="dropdown__menu bg-black-30 tc" id="sweets-dropdown">
-          <li><a href="/{{page.lang}}/zangles" class="f6 link bammerlaan-blauw hover-mid-gray dib-ns tc pa0 ph1 ph2-ns" style="">Info</a></li>
-          <li><a href="/{{page.lang}}/zangles/#tarieven-en-voorwaarden" class="f6 link bammerlaan-blauw hover-mid-gray dib-ns tc pa0 ph1 ph2-ns" style="">{{ site.data.translations['tarievenVoorwaardenNav'][page.lang] }}</a></li>
-          <!-- <li><a href="/{{page.lang}}/immix/wende" class="no-underline white hover-immix-marigold" style="">wende</a></li>
-          <li><a href="/{{page.lang}}/immix/bloom" class="no-underline white hover-immix-marigold" style="">bloom</a></li> -->
-          
-          <!-- <li><a href="/{{ page.lang }}/blog" class="no-underline white hover-immix-marigold">Blog</a></li> -->
-        </ul>
-      </li>
-      <!-- Contact -->
-      <li class="navbar-link f4 f4-l dib mr2 mr4-m mr4-l"><a href="/{{page.lang}}/contact"
-          class="navbar-link f4 link bammerlaan-blauw hover-mid-gray dib-ns tc pa0 ph1 ph2-ns" style="">{{ site.data.translations['contactNav'][page.lang] }}</a></li>
+    <!-- Agenda -->
+    <li class="navbar-link f4 link dn dtc-ns "><a href="/{{page.lang}}/concertagenda" class="navbar-link f4 link bammerlaan-blauw dib-ns tc pa0 ph1 ph2-ns">{{ site.data.translations['agendaNav'][page.lang] }}</a></li>
 
-      <!-- Taal dropdown -->
-      <li class="dropdown dark-gray f4 f4-l dib mr2 mr4-m mr4-l">
-        <!-- aria-expanded needs managed with Javascript -->
-        <button type="button" class="dropdown__title dib " aria-expanded="false" style=""
-          aria-controls="sweets-dropdown">
-          🌐
-        </button>
-          {% if page.layout != 'tagpage' %}
-          {% if page.layout != 'index' %}
-          {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
-          {% if posts.size == 0 %}
-          {% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+    <!-- Zangles-dropdown -->
+    <li class="f4 dropdown dn dtc-ns link ">
+      <!-- aria-expanded needs managed with Javascript -->
+      <button type="button" class="dropdown__title dib bammerlaan-blauw dib-ns tc pa0 ph1 ph2-ns" aria-expanded="false"
+        aria-controls="sweets-dropdown">
+        {{ site.data.translations['zanglesNav'][page.lang] }}
+      </button>
+      <ul class="dropdown__menu bg-black-30 tc" id="sweets-dropdown">
+        <li><a href="/{{page.lang}}/zangles" class="f5 link bammerlaan-blauw dib-ns tc pa0 ph1 ph2-ns">Info</a></li>
+        <li><a href="/{{page.lang}}/zangles/#tarieven-en-voorwaarden" class="f5 link bammerlaan-blauw dib-ns tc pa0 ph1 ph2-ns">{{ site.data.translations['tarievenVoorwaardenNav'][page.lang] }}</a></li>
+        <!-- <li><a href="/{{page.lang}}/immix/wende" class="no-underline white hover-immix-marigold">wende</a></li>
+        <li><a href="/{{page.lang}}/immix/bloom" class="no-underline white hover-immix-marigold">bloom</a></li> -->
+        
+        <!-- <li><a href="/{{ page.lang }}/blog" class="no-underline white hover-immix-marigold">Blog</a></li> -->
+      </ul>
+    </li>
+    <!-- Contact -->
+    <li class="navbar-link f4 link dn dtc-ns "><a href="/{{page.lang}}/contact"
+        class="navbar-link f4 link bammerlaan-blauw dib-ns tc pa0 ph1 ph2-ns">{{ site.data.translations['contactNav'][page.lang] }}</a></li>
+
+    <!-- ############## Mobiele versie -->
+
+    <!-- Hamburger-menu -->
+    <li class="f3 dropdown dtc dn-ns ">
+      <!-- aria-expanded needs managed with Javascript -->
+      <button type="button" class="dropdown__title dib bammerlaan-blauw dib-ns tc pa0 ph1 ph2-ns" aria-expanded="false" style="font-variant: small-caps;"
+        aria-controls="sweets-dropdown">
+        ☰ menu
+      </button>
+      <ul class="dropdown__menu bg-black-30 tl f4" id="sweets-dropdown">
+
+        <!-- Home -->
+        {% if page.lang == 'nl' %}
+        <li><a class="link bammerlaan-blauw dib-ns pa0 ph1 ph2-ns" href=" {{ site.url }}">
+        Home
+        {% endif %}
+        {% if page.lang != 'nl' %}
+        <a class="link bammerlaan-blauw dib-ns pa0 ph1 ph2-ns" href=" {{ site.url }}/{{ page.lang }}">
+          Home
           {% endif %}
-          {% if posts.size > 1 %}
-      
-            <ul class="dropdown__menu bg-black-30 tc" id="sweets-dropdown">
-            {% for post in posts %}
-            <li><a title="{{ site.data.translations['viewIn'][page.lang] }} {{ site.data.languages[post.lang].label }}"
-              class="{{post.lang}} no-underline link" style="" href="{{ site.base-url }}{{ post.url }}">{{
-              site.data.languages[post.lang].icon }} {{ site.data.languages[post.lang].label }}
-            </a></li>
-            {% endfor %}
-          </ul>
-            {% endif %}
-          
+        </a></li>
+
+        <!-- Poging tot horizontale scheiding -->
+        <li><div class="bg-lightest-blue pv1" style="background: url(/images/line2.png) repeat-x left bottom;"></div></li>
+
+        <!-- Biografie -->
+        <li><a href="/{{page.lang}}/bio" class="link bammerlaan-blauw dib-ns pa0 ph1 ph2-ns">{{ site.data.translations['bioNav'][page.lang] }}</a></li>
+
+        <!-- Repertoire -->
+        <li><a href="/{{page.lang}}/repertoire" class="link bammerlaan-blauw dib-ns pa0 ph1 ph2-ns">{{ site.data.translations['repertoireNav'][page.lang] }}</a></li>
+
+        <!-- Opnames -->
+        <li><a href="https://www.youtube.com/channel/UClcL5I8ybyGgUZSKI-AsOrA" class="link bammerlaan-blauw dib-ns pa0 ph1 ph2-ns f5" target='_blank' rel='noopener noreferrer'>{{ site.data.translations['recordingsNav'][page.lang] }}</a></li>
+
+        <!-- Poging tot horizontale scheiding -->
+        <li><div class="bg-lightest-blue pv1" style="background: url(/images/line2.png) repeat-x left bottom;"></div></li>
+
+        <!-- Agenda -->
+        <li><a href="/{{page.lang}}/concertagenda" class="link bammerlaan-blauw dib-ns pa0 ph1 ph2-ns">{{ site.data.translations['agendaNav'][page.lang] }}</a></li>
+
+        <!-- Poging tot horizontale scheiding -->
+        <li><div class="bg-lightest-blue pv1" style="background: url(/images/line2.png) repeat-x left bottom;"></div></li>
+
+        <!-- Zangles -->
+        <li><a href="/{{page.lang}}/zangles" class="link bammerlaan-blauw dib-ns pa0 ph1 ph2-ns">{{ site.data.translations['zanglesNav'][page.lang] }}</a></li>
+
+        <!-- Tarieven & voorwaarden -->
+        <li><a href="/{{page.lang}}/zangles/#tarieven-en-voorwaarden" class="link bammerlaan-blauw dib-ns pa0 ph1 ph2-ns f5">{{ site.data.translations['tarievenVoorwaardenNav'][page.lang] }}</a></li>
+
+        <!-- Poging tot horizontale scheiding -->
+        <li><div class="bg-lightest-blue pv1" style="background: url(/images/line2.png) repeat-x left bottom;"></div></li>
+
+        <!-- Contact -->
+        <li><a href="/{{page.lang}}/contact" class="link bammerlaan-blauw dib-ns pa0 ph1 ph2-ns">{{ site.data.translations['contactNav'][page.lang] }}</a></li>
+        
+      </ul>
+    </li>
+
+    <!-- Fill up space between buttons on mobile site -->
+    <li class="w-40 dn-ns"></li>
+
+    <!-- Taal dropdown -->
+    <li class="dropdown f4 dtc mr2 mr4-m mr4-l tr ">
+      <!-- aria-expanded needs managed with Javascript -->
+      <button type="button" class="dropdown__title dib bammerlaan-blauw" aria-expanded="false"
+        aria-controls="sweets-dropdown">
+        🌐︎
+      </button>
+        {% if page.layout != 'tagpage' %}
+        {% if page.layout != 'index' %}
+        {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+        {% if posts.size == 0 %}
+        {% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
         {% endif %}
-        {% endif %}
-
-      </li>
-
-    </ul>
-
-    <!-- a href="/{{page.lang}}/immix" class="no-underline white hover-immix-marigold" style="font-variant: small-caps;">immix</a> -->
-
-    <!-- Einde navmenu -->
-
-  </div>
-
-  <!-- Hier taalvlaggetjes (rechts) -->
-  <!-- <div class="dtc v-mid ">
-    {% if page.layout != 'tagpage' %}
-    {% if page.layout != 'index' %}
-    {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
-    {% if posts.size == 0 %}
-    {% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
-    {% endif %}
-    {% if posts.size > 1 %}
-    <div class="f3 pt1">
-
-      {% for post in posts %}
-      <a title="{{ site.data.translations['viewIn'][page.lang] }} {{ site.data.languages[post.lang].label }}"
-        class="{{post.lang}} white no-underline grow dim" href="{{ site.base-url }}{{ post.url }}">{{
-        site.data.languages[post.lang].icon }}
-      </a>
-      {% endfor %}
+        {% if posts.size > 1 %}
+    
+          <ul class="dropdown__menu bg-black-30 tc" id="sweets-dropdown">
+          {% for post in posts %}
+          <li><a title="{{ site.data.translations['viewIn'][page.lang] }} {{ site.data.languages[post.lang].label }}"
+            class="{{post.lang}} no-underline link" href="{{ site.base-url }}{{ post.url }}">{{
+            site.data.languages[post.lang].icon }} {{ site.data.languages[post.lang].label }}
+          </a></li>
+          {% endfor %}
+        </ul>
+          {% endif %}
+        
       {% endif %}
-    </div>
+      {% endif %}
 
-    {% endif %}
-    {% endif %}
-  </div> -->
-  <!-- Einde taalvlaggetjes -->
-  <!-- </div> -->
-</nav>
-
-<!-- Bron: https://w3bits.com/css-responsive-nav-menu/ en https://codepen.io/YoungElPaso/pen/geqpad -->
-
-
-<!-- Inspired by www.shopify.ca, Dropdown Navigation Prototype Using Tachyons CSS & Vue.js.-->
-<!-- Uses Tachyons CSS and a small override for a responsive CSS dropdown menu. -->
-
-<!-- <nav>
-  <ul class="w-100 list ph3 pa3-ns bg-white f4 cf mb0 mb3-ns"> -->
-
-    <!-- <li class="dib ma2 w-100 w-auto-ns bg-red">
-			<a href="/" class="dib nav tc no-underline pa3 ph4 bg-white dark-gray w-100">Home</a>
-	    </li> -->
-
-    <!-- <li class="fl fn-ns dib-ns ma0-ns w-third w-auto-ns"> -->
-      <!-- Deze aanpassen voor hoogtemarge van alle menuknoppen. w-100 is voor mobiele site. -->
-      <!-- <a href="/{{page.lang}}/bio"
-        class="link bammerlaan-blauw hover-mid-gray dib-ns tc pa0 ph1 ph2-ns">{{ site.data.translations['bioNav'][page.lang] }}</a>
     </li>
 
-    <li class="fl fn-ns dib-ns w-third w-auto-ns">
-      <a href="/{{page.lang}}/concertagenda"
-        class="link bammerlaan-blauw hover-mid-gray dib-ns tc pa0 ph1 ph2-ns">{{ site.data.translations['agendaNav'][page.lang] }}</a>
-    </li>
-
-    <li class="fl fn-ns dib-ns w-third w-auto-ns">
-      <a href="/{{page.lang}}/contact"
-        class="link bammerlaan-blauw hover-mid-gray dib tc pa0 ph1 ph2-ns">{{ site.data.translations['contactNav'][page.lang] }}</a>
-    </li> -->
-
-    <!-- Onderstaande twee alleen voor mobiele site.-->
-
-    <!-- <li class="fl dn-ns w-third w-auto-ns mt2 ma0-ns">
-      <a href="/{{page.lang}}/ensembles/cantorex"
-        class="link bammerlaan-blauw hover-mid-gray dib tc pa0 ph1 ph2-ns">En&shy;sem&shy;ble Can&shy;to&shy;rex</a>
-    </li>
-
-    <li class="fl dn-ns w-third w-auto-ns mt2 ma0-ns">
-      <a href="/{{page.lang}}/ensembles/enm"
-        class="link bammerlaan-blauw hover-mid-gray dib tc pa0 ph1 ph2-ns">{{ site.data.translations['enmNav'][page.lang] }}</a>
-    </li> -->
-
-    <!-- Dropdown menu for -m site.-->
-    <!-- <li class="dn dib-m fn-ns pa0-ns ph2-ns relative-m relative-l w-50 w-auto-ns bammerlaan-blauw noselect">
-      {{ site.data.translations['ensemblesNav'][page.lang] }} ▾
-      <ul
-        class="menu list bg-mid-gray mt0 mt1-ns pa0 f6 child child-vs o-100-vs absolute-m absolute-l top-100-m w-100 br2 shadow-4-ns z-max">
-
-        <li class="ma0 pa2-ns ph3-ns bg-white bg-animate hover-bg-white">
-          <a href="/{{page.lang}}/ensembles/cantorex"
-            class="link bammerlaan-blauw hover-mid-gray dib nav tc ph0 pa1 w-100">Can&shy;to&shy;rex</a>
-        </li>
-
-        <li class="ma0 pa2-ns ph3-ns bg-white bg-animate hover-bg-white">
-          <a href="/{{page.lang}}/ensembles/enm"
-            class="link bammerlaan-blauw hover-mid-gray dib nav tc ph0 pa1 w-100">{{ site.data.translations['enmNav'][page.lang] }}</a>
-        </li>
-
-        <li class="ma0 pa2-ns ph3-ns bg-white bg-animate hover-bg-white">
-          <a href="https://immixvocalensemble.com"
-            class="link bammerlaan-blauw hover-mid-gray dib nav tc ph0 pa1 w-100">Immix</a>
-        </li>
-
-      </ul>
-    </li> -->
-
-    <!-- Dropdown menu for -l site.-->
-    <!-- <li class="dn dib-l fn-ns pa0-ns ph2-ns hide-child relative-m relative-l w-50 w-auto-ns bammerlaan-blauw noselect">
-      {{ site.data.translations['ensemblesNav'][page.lang] }} ▾
-      <ul
-        class="menu list bg-mid-gray mt0 mt1-ns pa0 f6 hide-child child child-vs o-100-vs absolute-m absolute-l top-100-m w-100 br2 shadow-4-ns z-max">
-
-        <li class="ma0 pa2-ns ph3-ns bg-white bg-animate hover-bg-white">
-          <a href="/{{page.lang}}/ensembles/cantorex"
-            class="link bammerlaan-blauw hover-mid-gray dib nav tc ph0 pa1 w-100">Can&shy;to&shy;rex</a>
-        </li>
-
-        <li class="ma0 pa2-ns ph3-ns bg-white bg-animate hover-bg-white">
-          <a href="/{{page.lang}}/ensembles/enm"
-            class="link bammerlaan-blauw hover-mid-gray dib nav tc ph0 pa1 w-100">{{ site.data.translations['enmNav'][page.lang] }}</a>
-        </li>
-
-        <li class="ma0 pa2-ns ph3-ns bg-white bg-animate hover-bg-white">
-          <a href="https://immixvocalensemble.com"
-            class="link bammerlaan-blauw hover-mid-gray dib nav tc ph0 pa1 w-100">Immix</a>
-        </li>
-
-      </ul>
-    </li> -->
-
-    <!-- Dropdown menu for mobile and -l site.-->
-    <!-- <li
-      class="fn-ns dib dn-m pa0-ns ph2-ns hide-child relative-m relative-l w-third w-auto-ns bammerlaan-blauw mt2 ma0-ns">
-      <a href="/{{page.lang}}/zangles"
-        class="link bammerlaan-blauw hover-mid-gray dib nav tc pa0 ph2 w-100">{{ site.data.translations['zanglesNav'][page.lang] }}
-        ▾</a>
-      <ul
-        class="menu list bg-mid-gray mt0 mt1-ns pa0 f6 hide-child child child-vs o-100-vs absolute-m absolute-l top-100-m w-100 br2 shadow-4-ns z-max">
-
-        <li class="ma0 pa2 ph3 bg-white bg-animate hover-bg-white">
-          <a href="/{{page.lang}}/zangles/#tarieven-en-voorwaarden"
-            class="link bammerlaan-blauw hover-mid-gray dib nav tc ph0 pa1 w-100">{{ site.data.translations['tarievenVoorwaardenNav'][page.lang] }}</a>
-        </li>
-
-      </ul>
-    </li> -->
-
-    <!-- Dropdown menu for mobile and -l site.-->
-    <!-- <li class="fn-ns dn dib-m pa0-ns ph2-ns relative-m relative-l w-third w-auto-ns bammerlaan-blauw mt2 ma0-ns">
-      <a href="/{{page.lang}}/zangles"
-        class="link bammerlaan-blauw hover-mid-gray dib nav tc pa0 ph2 w-100">{{ site.data.translations['zanglesNav'][page.lang] }}
-        ▾</a>
-      <ul
-        class="menu list bg-mid-gray mt0 mt1-ns pa0 f6 child child-vs o-100-vs absolute-m absolute-l top-100-m w-100 br2 shadow-4-ns z-max">
-
-        <li class="ma0 pa2 ph3 bg-white bg-animate hover-bg-white">
-          <a href="/{{page.lang}}/zangles/#tarieven-en-voorwaarden"
-            class="link bammerlaan-blauw hover-mid-gray dib nav tc ph0 pa1 w-100">{{ site.data.translations['tarievenVoorwaardenNav'][page.lang] }}</a>
-        </li>
-
-      </ul>
-    </li> -->
-
-    <!--    <li class="dib w-100 w-auto-ns ">
-			<a href="/media/#top" class="link bammerlaan-blauw hover-mid-gray dib nav tc pa0 ph2 w-100">Me&shy;di&shy;a</a>
-	    </li> -->
-
-
-<!-- 
   </ul>
-</nav> -->
+
+</nav>
