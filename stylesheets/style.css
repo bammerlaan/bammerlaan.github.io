@@ -179,8 +179,6 @@ a[href^="http://"]:after, a[href^="https://"]:after {
   padding-left: 3px;
 }
 
-/* from https://moderncss.dev/css-only-accessible-dropdown-navigation-menu/ */
-
 
 * {
   /* box-sizing: border-box; */
@@ -329,3 +327,32 @@ a:active {
   /* font-family: FiraSansRegular, sans-serif; */
   /* color: var(--bammerlaan-blauw) !important; */
 }  */
+
+.description-list dt {
+  grid-area: term; /* Place the term in the first column */
+}
+
+.description-list dd {
+  grid-area: definition; /* Place the definition in the second column */
+}
+
+.icon {
+  grid-area: icon; /* Place the icon in the first column */
+  margin-right: 1rem; /* Add some space between icon and term */
+}
+
+.qr-code {
+  grid-area: qr; /* Place the QR code in the third column */
+  margin-left: 1rem; /* Add some space between definition and QR code */
+}
+
+.description-list {
+  display: grid;
+  grid-template-columns: auto 1fr auto; /* Three columns: icon, term/definition, QR code */
+  gap: .5rem; /* Add some space between rows and columns */
+  padding: 1rem;
+}
+
+/* Optional: Add some bottom margin to separate the list from other content */
+.description-list {
+  margin-bottom: 2rem;

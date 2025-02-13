@@ -3,7 +3,6 @@ title: Contact
 lang: nl
 lang-ref: contact
 ---
-
 <div class="w-100 mb4 mb1-m mb0-l">
 	<div class="fl w-100 w-50-m w-50-l pa2">
 		<b>KvK-nummer:</b>
@@ -21,7 +20,7 @@ lang-ref: contact
 		</blockquote>
 	</div>
 
-	<div class="fl w-100 w-50-m w-50-l pa2">
+	<div class="fl w-100 w-50-ns pa2">
 		<form class="wj-contact" action="https://formspree.io/{{site.email}}" method="POST">
 			<input type="email" name="email" class="db w-100 pa2 mt2 br2 b--black-20 ba f6" id="inputEmail3"
 				placeholder="E-mailadres">
@@ -35,6 +34,58 @@ lang-ref: contact
 		</form>
 	</div>
 </div>
+
+<dl class="description-list">
+	<style>
+		.description-list dt {
+		  grid-area: term; /* Place the term in the first column */
+		}
+  
+		.description-list dd {
+		  grid-area: definition; /* Place the definition in the second column */
+		}
+  
+		.icon {
+		  grid-area: icon; /* Place the icon in the first column */
+		  margin-right: 1rem; /* Add some space between icon and term */
+		}
+  
+		.qr-code {
+		  grid-area: qr; /* Place the QR code in the third column */
+		  margin-left: 1rem; /* Add some space between definition and QR code */
+		}
+  
+		.description-list {
+		  display: grid;
+		  grid-template-columns: auto 1fr auto; /* Three columns: icon, term/definition, QR code */
+		  gap: .5rem; /* Add some space between rows and columns */
+		  padding: 1rem;
+		}
+  
+		/* Optional: Add some bottom margin to separate the list from other content */
+		.description-list {
+		  margin-bottom: 2rem;
+		}
+	  </style>
+    <dt class="fw6"><span class="icon">ℹ️</span> VAT Number:</dt>
+    <dd>123456789</dd>
+
+    <dt class="fw6"><span class="icon">🏢</span> Business Address:</dt>
+    <dd>123 Main Street, Anytown</dd>
+
+    <dt class="fw6"><span class="icon">🐘</span> Mastodon:</dt>
+    <dd>@mybusiness@mastodon.social <span class="qr-code">[QR]</span></dd>
+
+    <dt class="fw6"><span class="icon">🖼️</span> Pixelfed:</dt>
+    <dd>@mybusiness@pixelfed.social <span class="qr-code">[QR]</span></dd>
+
+    <dt class="fw6"><span class="icon">💬</span> Signal:</dt>
+    <dd>+1-555-123-4567 <span class="qr-code">[QR]</span></dd>
+</dl>
+
+<!-- <iframe title="Pixelfed Profile Embed" class="full-width-mobileview fl w-50-ns h-50" src="https://pixey.org/bammerlaan/embed" class="pixelfed__embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script async defer src="https://pixey.org/embed.js"></script> -->
+
+<!-- <iframe allowfullscreen class="full-width-mobileview fl w-50-ns h-50" sandbox="allow-top-navigation allow-scripts allow-popups allow-popups-to-escape-sandbox" width="400" height="800" src="https://mastofeed.com/apiv2/feed?userurl=https%3A%2F%2Fmastodon.nl%2Fusers%2Fbammerlaan&theme=light&size=100&header=true&replies=false&boosts=false"></iframe> -->
 
 
 
