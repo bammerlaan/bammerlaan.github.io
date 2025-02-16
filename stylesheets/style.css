@@ -269,6 +269,10 @@ nav ul li {
   background-color: #fff;
   /* border-radius: 4px; */
   box-shadow: 0 0.15em 0.25em rgba(0, 0, 0, 1);
+  /* Make list scrollable on mobile view: */
+  max-height: 80vh; /* Or any value that suits your design */
+  overflow-y: auto; /* Enable vertical scrolling */
+  -webkit-overflow-scrolling: touch; /* For smoother scrolling on iOS devices */
 }
 /* Link-tekst */
 .dropdown .dropdown__menu a {
@@ -331,62 +335,3 @@ a:active {
 
 
 /* Styling for Contact page */
-.entry {
-  transition: max-height 0.3s ease-in-out;
-  max-height: 4rem;
-  overflow: hidden;
-  position: relative; /* For absolute positioning of the indicator */
-}
-
-.entry:target {
-  max-height: 10rem;
-}
-
-.qr-code {
-  margin-top: 1rem;
-  width: 8rem;
-  height: 8rem;
-  background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.qr-code img {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.qr-code {
-  display: none;
-}
-
-.entry:target .qr-code {
-  display: flex;
-}
-
-/* Make dt bold */
-dt {
-  font-weight: bold; /* Or use the Tachyons class: class="b" on the dt elements */
-}
-
-/* Light gray background for entries */
-.entry {
-  background-color: #f0f0f0; /* Light gray */
-}
-
-/* Visual indicator styling and positioning */
-.indicator {
-  position: absolute;
-  top: 50%; /* Vertically center */
-  right: 1rem; /* Position on the right */
-  transform: translateY(-50%); /* Adjust vertical centering */
-  transition: transform 0.3s ease-in-out; /* Smooth rotation */
-  cursor: pointer; /* Make it look clickable */
-  font-size: 1.25rem; /* Adjust size as needed */
-  color: #888; /* Slightly darker gray */
-}
-
-.entry:target .indicator {
-  transform: translateY(-50%) rotate(45deg); /* Rotate on expand */
-}
