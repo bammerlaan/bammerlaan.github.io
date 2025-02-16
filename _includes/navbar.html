@@ -9,11 +9,11 @@
     <!-- Home-knop, verdwijnt op mobile -->
     <li class="dn dtc-ns link f4 ">
       {% if page.lang == 'nl' %}
-      <a class="f4 link bammerlaan-blauw dib-ns tc pa0 ph1 ph2-ns" href=" {{ site.url }}">
+      <a class="f4 no-underline bammerlaan-blauw dib-ns tc pa0 ph1 ph2-ns" href=" {{ site.url }}">
         Home
         {% endif %}
         {% if page.lang != 'nl' %}
-        <a class="f4 link bammerlaan-blauw dib-ns tc pa0 ph1 ph2-ns" href=" {{ site.url }}/{{ page.lang }}">
+        <a class="f4 no-underline bammerlaan-blauw dib-ns tc pa0 ph1 ph2-ns" href=" {{ site.url }}/{{ page.lang }}">
           Home
           {% endif %}
         </a>
@@ -35,7 +35,7 @@
     </li>
 
     <!-- Agenda -->
-    <li class="navbar-link f4 link dn dtc-ns "><a href="/{{page.lang}}/concertagenda" class="navbar-link f4 link bammerlaan-blauw dib-ns tc pa0 ph1 ph2-ns">{{ site.data.translations['agendaNav'][page.lang] }}</a></li>
+    <li class="navbar-link f4 link dn dtc-ns "><a href="/{{page.lang}}/concertagenda" class="navbar-link f4 no-underline bammerlaan-blauw dib-ns tc pa0 ph1 ph2-ns">{{ site.data.translations['agendaNav'][page.lang] }}</a></li>
 
     <!-- Zangles-dropdown -->
     <li class="f4 dropdown dn dtc-ns link ">
@@ -55,7 +55,7 @@
     </li>
     <!-- Contact -->
     <li class="navbar-link f4 link dn dtc-ns "><a href="/{{page.lang}}/contact"
-        class="navbar-link f4 link bammerlaan-blauw dib-ns tc pa0 ph1 ph2-ns">{{ site.data.translations['contactNav'][page.lang] }}</a></li>
+        class="navbar-link f4 no-underline bammerlaan-blauw dib-ns tc pa0 ph1 ph2-ns">{{ site.data.translations['contactNav'][page.lang] }}</a></li>
 
     <!-- ############## Mobiele versie -->
 
