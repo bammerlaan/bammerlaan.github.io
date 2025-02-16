@@ -328,31 +328,65 @@ a:active {
   /* color: var(--bammerlaan-blauw) !important; */
 }  */
 
-.description-list dt {
-  grid-area: term; /* Place the term in the first column */
+
+
+/* Styling for Contact page */
+.entry {
+  transition: max-height 0.3s ease-in-out;
+  max-height: 4rem;
+  overflow: hidden;
+  position: relative; /* For absolute positioning of the indicator */
 }
 
-.description-list dd {
-  grid-area: definition; /* Place the definition in the second column */
-}
-
-.icon {
-  grid-area: icon; /* Place the icon in the first column */
-  margin-right: 1rem; /* Add some space between icon and term */
+.entry:target {
+  max-height: 10rem;
 }
 
 .qr-code {
-  grid-area: qr; /* Place the QR code in the third column */
-  margin-left: 1rem; /* Add some space between definition and QR code */
+  margin-top: 1rem;
+  width: 8rem;
+  height: 8rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.description-list {
-  display: grid;
-  grid-template-columns: auto 1fr auto; /* Three columns: icon, term/definition, QR code */
-  gap: .5rem; /* Add some space between rows and columns */
-  padding: 1rem;
+.qr-code img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
-/* Optional: Add some bottom margin to separate the list from other content */
-.description-list {
-  margin-bottom: 2rem;
+.qr-code {
+  display: none;
+}
+
+.entry:target .qr-code {
+  display: flex;
+}
+
+/* Make dt bold */
+dt {
+  font-weight: bold; /* Or use the Tachyons class: class="b" on the dt elements */
+}
+
+/* Light gray background for entries */
+.entry {
+  background-color: #f0f0f0; /* Light gray */
+}
+
+/* Visual indicator styling and positioning */
+.indicator {
+  position: absolute;
+  top: 50%; /* Vertically center */
+  right: 1rem; /* Position on the right */
+  transform: translateY(-50%); /* Adjust vertical centering */
+  transition: transform 0.3s ease-in-out; /* Smooth rotation */
+  cursor: pointer; /* Make it look clickable */
+  font-size: 1.25rem; /* Adjust size as needed */
+  color: #888; /* Slightly darker gray */
+}
+
+.entry:target .indicator {
+  transform: translateY(-50%) rotate(45deg); /* Rotate on expand */
+}
