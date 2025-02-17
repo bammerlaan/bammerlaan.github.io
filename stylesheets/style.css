@@ -98,13 +98,15 @@ th {
   color: var(--bammerlaan-blauw);
 } /* Link-kleur */
 
+/* Markdown links */
 .markdown-body a:hover,
-a:focus,
-a:active {
+.markdown-body a:focus,
+.markdown-body a:active {
   text-decoration: none;
   color: var(--bammerlaan-grijs);
   background: url(/images/line2.png) repeat-x left bottom;
-} /* Link-mouse-over */
+} /*Link-mouse-over*/ 
+
 
 .markdown-body .highlighter-rouge {
   padding: 0.25rem 0.5rem;
