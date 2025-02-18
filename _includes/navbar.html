@@ -1,13 +1,13 @@
 
 <!-- Voeg "outline" toe aan class om handig te kijken waar het element precies komt -->
-<nav class="z-max bg-white f4 w-100 ph2 pv1" aria-label="Main Navigation">
+<nav class="z-max bg-white f4 w-100 ph4-l ph2-m ph1 pv3" aria-label="Main Navigation">
   <!-- Hier het navmenu -->
-  <ul class="pa0 v-mid dt dt--fixed">
+  <ul class="flex flex-no-wrap justify-between w-100 pa0 ma0">
 
     <!-- ############# Desktop-versie -->
 
     <!-- Home-knop, verdwijnt op mobile -->
-    <li class="dn dtc-ns link f4 ">
+    <li class="dn dib-ns link f4 ">
       {% if page.lang == 'nl' %}
       <a class="f4 no-underline bammerlaan-blauw dib-ns tc pa0 ph1 ph2-ns" href=" {{ site.url }}">
         Home
@@ -20,7 +20,7 @@
     </li>
 
     <!-- Over mij-dropdown -->
-    <li class="f4 dropdown dn dtc-ns link ">
+    <li class="f4 dropdown dn dib-ns link ">
       <!-- aria-expanded needs managed with Javascript -->
       <button type="button" class="dropdown__title dib bammerlaan-blauw dib-ns tc pa0 ph1 ph2-ns" aria-expanded="false"
         aria-controls="sweets-dropdown">
@@ -35,12 +35,12 @@
     </li>
 
     <!-- Agenda -->
-    <li class="f4 link dn dtc-ns "><a href="/{{page.lang}}/concertagenda" class="f4 no-underline bammerlaan-blauw dib-ns tc pa0 ph1 ph2-ns">{{ site.data.translations['agendaNav'][page.lang] }}</a></li>
+    <li class="f4 link dn dib-ns "><a href="/{{page.lang}}/concertagenda" class="f4 no-underline bammerlaan-blauw dib-ns tc pa0 ph1 ph2-ns truncate">{{ site.data.translations['agendaNav'][page.lang] }}</a></li>
 
     <!-- Zangles-dropdown -->
-    <li class="f4 dropdown dn dtc-ns link ">
+    <li class="f4 dropdown dn dib-ns link ">
       <!-- aria-expanded needs managed with Javascript -->
-      <button type="button" class="dropdown__title dib bammerlaan-blauw dib-ns tc pa0 ph1 ph2-ns" aria-expanded="false"
+      <button type="button" class="dropdown__title dib bammerlaan-blauw dib-ns tc pa0 ph1 ph2-ns truncate" aria-expanded="false"
         aria-controls="sweets-dropdown">
         {{ site.data.translations['zanglesNav'][page.lang] }}
       </button>
@@ -54,8 +54,8 @@
       </ul>
     </li>
     <!-- Contact -->
-    <li class="f4 link dn dtc-ns "><a href="/{{page.lang}}/contact"
-        class="f4 no-underline bammerlaan-blauw dib-ns tc pa0 ph1 ph2-ns">{{ site.data.translations['contactNav'][page.lang] }}</a></li>
+    <li class="f4 link dn dib-ns "><a href="/{{page.lang}}/contact"
+        class="f4 no-underline bammerlaan-blauw dib-ns tc pa0 ph1 ph2-ns truncate">{{ site.data.translations['contactNav'][page.lang] }}</a></li>
 
     <!-- ############## Mobiele versie -->
 
@@ -119,7 +119,7 @@
     <li class="w-40 dn-ns"></li>
 
     <!-- Taal dropdown -->
-    <li class="dropdown f4 dtc mr2 mr4-m mr4-l">
+    <li class="dropdown f4 dtc mr4">
       <!-- aria-expanded needs managed with Javascript -->
       <button type="button" class="dropdown__title dib bammerlaan-blauw" aria-expanded="false"
         aria-controls="sweets-dropdown">
