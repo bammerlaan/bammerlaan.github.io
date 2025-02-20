@@ -12,4 +12,4 @@ Een van de laatste concerten die ik mocht geven voor de huidige nieuwe lockdown 
 Het koor maakte een filmpje met de hoogtepunten en was zo goed deze met mij te delen. Hieronder is deze te beluisteren:<br><br>
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fFLiuszOTRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="full-width-mobileview ma0" width="560" height="315" src="https://www.youtube.com/embed/fFLiuszOTRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -13,4 +13,4 @@ One of the last concerts I could give before the current new Covid-19 lockdown w
 The choir made a short film with some highlights and was kind enough to share it with me. It can be listened to by clicking below:<br><br>
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fFLiuszOTRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="full-width-mobileview ma0" width="560" height="315" src="https://www.youtube.com/embed/fFLiuszOTRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -10,7 +10,7 @@ published: true
 
 Op mijn eindexamen van het Utrechts Conservatorium zong ik onder andere <i>Cuerpo de Mujer</i> van <a href="https://en.wikipedia.org/wiki/Carlos_Mich%C3%A1ns">Carlos Micháns</a>. Deel van zijn liedbundel <i>Cinco Canciones de Amor</i> (1988) en op tekst van Pablo Neruda. De componist vond mijn uitvoering goed genoeg om op zijn eigen Youtubekanaal te publiceren, die hieronder te vinden is:<br><br>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4T-OTKCFR9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+<iframe class="full-width-mobileview ma0" width="560" height="315" src="https://www.youtube.com/embed/4T-OTKCFR9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
 
 Piano: Carl van Reenen.<br><br>
 

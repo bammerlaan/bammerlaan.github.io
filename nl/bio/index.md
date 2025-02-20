@@ -16,7 +16,7 @@ Sebastiaan is een voorvechter van het uitvoeren van nieuwgeschreven muziek. Hij 
 
 Sebastiaan zong in het [Huelgas Ensemble](https://www.huelgasensemble.be/), het [Nederlands Kamerkoor](https://www.nederlandskamerkoor.nl/), het [koor van de Nederlandse Opera](https://www.operaballet.nl/koor-van-de-nationale-opera-0), [Consensus Vocalis](https://consensusvocalis.nl/) en het [Bach Choir of the Netherlands](https://beleefklassiek.nl/The-Bach-Choir-Orchestra-of-the-Netherlands). <!--  en [NKK NXT](https://www.nederlandskamerkoor.nl/nl/nkk-nxt) en zong mee met [Meesters & Gezellen](http://www.tettix.nl/) (2016 tot 2018), de [Dutch National Opera Academy](http://www.opera-academy.nl/), [Muziektheater Hollands Diep](http://muziektheaterhollandsdiep.nl/), [TENSO Europe Chamber Choir](https://www.tensoeuropechamberchoir.eu/) en het [Zed Chamber Choir](https://www.hollandscollectief.com/). -->Hij speelde in het [Jeugdorkest Nederland](https://www.jeugdorkest.nl/) en zong in het [Nationaal Jeugdkoor](http://www.nationalekoren.nl).  
 
-Hij vormt een vast duo met pianist [Geert Omta](https://www.geertomta.nl/) waarmee hij eigen concerten organiseert en muzikale aankleding verzorgt bij gelegenheden als huwelijken en begrafenissen. 
+Hij vormt een vast duo met pianist [Geert Omta](https://www.geertomta.nl/){:target="_blank" rel="noopener"} waarmee hij eigen concerten organiseert en muzikale aankleding verzorgt bij gelegenheden als huwelijken en begrafenissen. 
 
 
 <!-- In 2017 richtte hij met sopraan Veronika Akhmetchina het [Ensemble Nieuwe Muziek](/ensembles/enm) op: een ensemble met steeds wisselende bezetting voor het uitvoeren van versgeschreven muziek. Met sopraan Iris Bouman, alt Hester Westra en tenor Dierick Aartsen zingt hij ook in [Ensemble Cantorex](/ensembles/cantorex), een vocaal ensemble gespecialiseerd in Renaissance- en barokmuziek. -->
@@ -30,7 +30,7 @@ Hij vormt een vast duo met pianist [Geert Omta](https://www.geertomta.nl/) waarm
     </div>
     <div class="fl w-100 w-third-ns pa2 tr f7">
       <img src="/images/nnknxt_Bas002.jpg" alt="Sebastiaan Ammerlaan" class="br3">
-      <a href=https://bettercallchun.com target='_blank' rel='noopener noreferrer'>CHUN Photography</a>
+      <a href="https://bettercallchun.com" target='_blank' rel='noopener noreferrer'>CHUN Photography</a>
     </div>
     <div class="fl w-100 w-third-ns pa2">
       <img src="/images/GrowingMusic2022.jpg" alt="Sebastiaan Ammerlaan" class="br3">

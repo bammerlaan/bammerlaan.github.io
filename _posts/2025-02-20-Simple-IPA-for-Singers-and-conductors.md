@@ -8,26 +8,19 @@ tags: technologie boekhouding latex gnucash factuur opensource linux qrcodes
 published: false
 ---
 
+
+
 <figure class="fr-ns w-50-ns br3 ma1 ba b--light-gray">
     <a href="/images/blog/2020/template_blogpost_bammerlaan_English_QR.svg">
     <img src="/images/blog/2020/template_blogpost_bammerlaan_English_QR.svg" alt="GnuCash_LaTeX_Factuur" class="br3 br--top"></a>
     <figcaption class="tc">Factuur met automatisch toegevoegde SEPA Credit Transfer QR-code.</figcaption>
 </figure>
 
+
 bla bla 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fFLiuszOTRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-dit dan? 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-werkt dit?
-
-<iframe width="420" height="315" src="http://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"> 
+<iframe class="full-width-mobileview ma0" width="560" height="315" src="https://www.youtube.com/embed/fFLiuszOTRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> 
 
 </iframe>
 
-Zo dan?
-
-<iframe width="420" height="315" src="//www.youtube.com/embed/w0K1wwSJZoc" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
+bla bla 
