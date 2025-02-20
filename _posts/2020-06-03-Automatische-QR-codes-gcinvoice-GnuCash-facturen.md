@@ -16,7 +16,7 @@ published: true
 
 Terwijl ik werkte aan mijn [vorige blogpost](/posts/GnuCash-LaTeX-en-gcinvoice-voor-mooie-facturen) over het maken van mooie facturen met LaTeX en GnuCash, vroeg een student me of hij ook kon betalen met een [Tikkie](https://www.tikkie.me/): een vrij bekende site die je makkelijk met mobiel bankieren geld kan laten overmaken.
 
-Ik heb dit even uitgezocht, en het blijkt dat Tikkie voor een bedrijfje van mijn formaat € 0,25 per transactie kost. Niet extreem veel, natuurlijk, maar ik probeer toch zo min mogelijk extra kosten te maken met mijn kleine bedrijf.
+Ik heb dit even uitgezocht, en het blijkt dat Tikkie voor een bedrijfje van mijn formaat € 0,25 per transactie kost. Niet extreem veel, natuurlijk, maar ik probeer toch zo min mogelijk extra kosten te maken met mijn kleine bedrijf. Het is misschien ook een beetje een principekwestie.
 
 ## SEPA Credit Transfer QR-codes
 
@@ -57,7 +57,7 @@ De meeste Nederlandse banken ondersteunen dergelijke QR-codes op hun apps voor b
     </tr>
     </tbody>
     </table>
-    <figcaption class="tc">Nederlandse banken die SEPA Credit Transfer QR codes ondersteunen.</figcaption>
+    <figcaption class="tc">Nederlandse banken die SEPA Credit Transfer QR codes ondersteunen in 2020.</figcaption>
 </figure>
 
 De website [https://epc-qr.eu/](https://epc-qr.eu/) heeft een generator voor dergelijke QR-codes zonder trackers en cookies, en biedt zelfs een API om in scripts te gebruiken. Ik heb dus een klein scriptje geschreven in uitbreiding op mijn vorige blogpost om automatisch een QR-code aan facturen toe te kunnen voegen. Niet op elke factuur, want veel van mijn zakelijke klanten gebruiken waarschijnlijk geen app om geld over te maken.

@@ -1,7 +1,7 @@
 <div class="comments">
     <h3>{{ site.data.translations['commentsHeader'][page.lang] }}</h3>
     <!-- Add nesting Liquid Tags. Refer to variable in Liquid array declaration. -->
-    {% assign comments = site.data.comments.[page.lang-ref] | sort %}
+    <!-- {% assign comments = site.data.comments.[page.lang-ref] | sort %}
     {% for comment in comments reversed %}
     {% assign commentData = comment[1] %}
     <article class="comment">
@@ -11,5 +11,5 @@
             {{ commentData.message | markdownify }}
         </div>
     </article>
-    {% endfor %}
+    {% endfor %} -->
 </div>

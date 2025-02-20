@@ -57,7 +57,7 @@ Many Dutch banks support scanning such QR codes with their banking apps on smart
 	</tr>
 	</tbody>
 	</table>
-	<figcaption class="tc">Dutch banks supporting SEPA Credit Transfer QR codes.</figcaption>
+	<figcaption class="tc">Dutch banks supporting SEPA Credit Transfer QR codes in 2020.</figcaption>
 </figure>
 
 The website [https://epc-qr.eu/](https://epc-qr.eu/) offers a generator for these QR codes, tracker and cookie free, and even offers an API to use in scripts. As I was working on my template anyway, I decided to write a small script to automatically add a QR code to some of my invoices. I wanted it to be an option whether to add a QR code or not, as many of my professional customers probably don't use a banking app for payment.
