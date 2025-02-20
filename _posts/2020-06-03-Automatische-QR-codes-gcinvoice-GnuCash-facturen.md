@@ -6,7 +6,7 @@ lang-ref: sepa-ct-qr-gnucash-latex-invoice # Also create a directory for this in
 tags: technologie boekhouding latex gnucash factuur opensource linux qrcodes
 # Run tag_generator.py for every new blog post!
 published: true
-tootId: 114038131910451746
+tootId: 114038308873817944
 ---
 
 <figure class="fr-ns w-50-ns br3 ma1 ba b--light-gray">
