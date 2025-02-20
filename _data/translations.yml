@@ -1,6 +1,6 @@
 relatedPosts:
   en: "Related posts"
-  nl: "Gerelateerde posts"
+  nl: "Gerelateerde berichten"
 differentLanguage:
   en: "Read this page in a different language"
   es: "Lees deze pagina in een andere taal"
@@ -43,6 +43,15 @@ blogSignoff:
 commentsHeader:
   en: "Comments"
   nl: "Reacties"
+commentsText:
+  en: "You can use your Mastodon account to reply by clicking on this"
+  nl: "Je kan je Mastodon-account gebruiken om te reageren door te klikken op deze"
+commentsPost:
+  en: "link"
+  nl: "link"
+commentsTextCtd:
+  en: 'You can also reply using Pixelfed, Lemmy, Friendica or other <a href="https://fediverse.party/">Fediverse</a> sites by copying this link and pasting it in the search bar of the app or website you use for them:'
+  nl: 'Je kan ook reageren met Pixelfed,  Lemmy, Friendica of een andere <a href="https://fediverse.party/">Fediverse</a> site door deze link te plakken in de zoekbalk van de app of website die je gebruikt:'
 commentsName:
   en: "Name"
   nl: "Naam"

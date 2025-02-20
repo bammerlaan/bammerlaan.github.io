@@ -640,3 +640,5 @@ Tido Visser
     <a href="https://www.cultuurfonds.nl/" class="pv2 grow db no-underline black"><img class="db w-100 bg-white" src="images/NKKNXT/Fondsen/bernhard_cultuurfonds.png"></a>
     </div>
 </main>
+
+<mastodon-comments host="fosstodon.org" user="dpecos" tootId="109574160582937075" style="width : 1024px"></mastodon-comments>
