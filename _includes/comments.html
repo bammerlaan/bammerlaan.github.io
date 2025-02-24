@@ -1,9 +1,15 @@
 <script type="module" src="/assets/js/mastodon-comments.js"></script>
 <div class="no-external-links-icon">
     <!-- <h3>{{ site.data.translations['commentsHeader'][page.lang] }}</h3> -->
-    
+    <h2>{{ site.data.translations['commentsHeader'][page.lang] }}</h2>
+    <p> {{ site.data.translations['commentsText'][page.lang] }} <a class="link"
+        href="https://mastodon.nl/@bammerlaan/{{ page.tootId }}">{{ site.data.translations['commentsPost'][page.lang] }}</a>.</p>
+    <!-- <p>
+        {{ site.data.translations['commentsTextCtd'][page.lang] }}
+    </p> -->
     <!-- From https://github.com/dpecos/mastodon-comments -->
     <mastodon-comments 
+    class="ph0 w-100 flex-column f6 items-start"
     host="mastodon.nl" 
     user="bammerlaan" 
     tootId="{{ page.tootId }}" 

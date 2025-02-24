@@ -44,14 +44,14 @@ commentsHeader:
   en: "Comments"
   nl: "Reacties"
 commentsText:
-  en: "You can use your Mastodon account to reply by clicking on this"
-  nl: "Je kan je Mastodon-account gebruiken om te reageren door te klikken op deze"
+  en: "Comment on this post by reacting to"
+  nl: "Plaats een reactie door te reageren op"
 commentsPost:
-  en: "link"
-  nl: "link"
+  en: "this Mastodon post"
+  nl: "deze Mastodon-post"
 commentsTextCtd:
-  en: 'You can also reply using Pixelfed, Lemmy, Friendica or other <a href="https://fediverse.party/">Fediverse</a> sites by copying this link and pasting it in the search bar of the app or website you use for them:'
-  nl: 'Je kan ook reageren met Pixelfed,  Lemmy, Friendica of een andere <a href="https://fediverse.party/">Fediverse</a> site door deze link te plakken in de zoekbalk van de app of website die je gebruikt:'
+  en: 'You can also reply using Pixelfed, Lemmy, Friendica or other <a href="https://fediverse.party/">Fediverse</a> sites by copying the link below and pasting it in the search bar of the app or website you use for them:'
+  nl: 'Je kan ook reageren met Pixelfed,  Lemmy, Friendica of een andere <a href="https://fediverse.party/">Fediverse</a>-site door onderstaande link te plakken in de zoekbalk van de app of website die je gebruikt:'
 commentsName:
   en: "Name"
   nl: "Naam"

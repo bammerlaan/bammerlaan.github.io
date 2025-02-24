@@ -37,10 +37,12 @@ const styles = `
   margin-bottom: 0px;
 }
 
-.mastodon-comment .author {
+/* Remove .author class to replace it with Tachyons styling. */
+
+/*.mastodon-comment .author {
   padding-top:0;
   display:flex;
-}
+}*/
 
 .mastodon-comment .author a {
   text-decoration: none;
@@ -66,10 +68,10 @@ const styles = `
   font-size: medium;
 }
 
-.mastodon-comment .author .date {
+/*.mastodon-comment .author .date {
   margin-left: auto;
   font-size: small;
-}
+}*/
 
 .mastodon-comment .content {
   margin: 15px 20px;
@@ -136,11 +138,11 @@ class MastodonComments extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
       <div id="mastodon-stats"></div>
-      <h2>${this.commentsHeader}</h2>
+      <!-- <h2>${this.commentsHeader}</h2> -->
        
-      <p> ${this.commentsText} <a class="link"
+      <!-- <p> ${this.commentsText} <a class="link"
           href="https://${this.host}/@${this.user}/${this.tootId}">${this.commentsPost}</a>.
-      </p>
+      </p> -->
       <p id="mastodon-comments-list"></p>
     `;
 
@@ -227,8 +229,10 @@ class MastodonComments extends HTMLElement {
       );
     });
 
-    const mastodonComment = `<div class="mastodon-comment" style="margin-left: calc(var(--comment-indent) * ${depth})">
-        <div class="author">
+      // <!-- Hieronder wat CSS classes vervangen door Tachyons-dingen -->
+
+    const mastodonComment = `<div class="mastodon-comment ph0 w-100 ml0 mr0" style="margin-left: calc(var(--comment-indent) * ${depth})">
+        <div class="author flex-ns flex-wrap">
           <div class="avatar">
             <img src="${this.escapeHtml(
               toot.account.avatar_static,
@@ -238,11 +242,12 @@ class MastodonComments extends HTMLElement {
             <a class="name" href="${toot.account.url}" rel="nofollow">${
               toot.account.display_name
             }</a>
-            <a class="user" href="${
+            <a class="user w-100 mw-100 flex-wrap" href="${
               toot.account.url
             }" rel="nofollow">${this.user_account(toot.account)}</a>
           </div>
-          <a class="date" href="${
+          <!-- Datum-styling -->
+          <a class="date f7 ml-auto-ns " href="${
             toot.url
           }" rel="nofollow">${toot.created_at.substr(
             0,
