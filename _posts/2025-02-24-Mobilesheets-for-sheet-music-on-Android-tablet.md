@@ -5,7 +5,7 @@ lang: en
 lang-ref: mobile-sheets # Also create a directory for this in _data/comments. Throws error otherwise. Add empty file there to propagate on Github as well, then remove again.
 tags: android tablet bladmuziek technologie klassiekemuziek howto review 
 # Run tag_generator.py for every new blog post!
-published: false
+published: true
 tootId: 114060735046433954
 ---
 
@@ -19,357 +19,366 @@ tootId: 114060735046433954
     <title>info icon</title>
     <path d="M16 0 A16 16 0 0 1 16 32 A16 16 0 0 1 16 0 M19 15 L13 15 L13 26 L19 26 z M16 6 A3 3 0 0 0 16 12 A3 3 0 0 0 16 6"></path>
   </svg>
-  <span class="lh-title ml3">This is a translation of a blog post from 2019 on my web site. Most of the information should hold up today, but some of the content might be outdated.</span>
+  <span class="lh-title ml3">This is a translation of a blog post from 2019 on my website. Most of the information should hold up today, but some of the content might be outdated.</span>
 </div>
 
-In the past year I have tried out many different Android apps for sheet music. (Apple's iOS might have more different apps, but [I don't like Apple much](https://stallman.org/apple.html).) My favourite was [MobileSheets](https://play.google.com/store/apps/details?id=com.zubersoft.mobilesheetspro), which also has a free trial version [here](https://play.google.com/store/apps/details?id=com.zubersoft.mobilesheetsfree). There is a [manual](https://www.zubersoft.com/mobilesheets/manual.html), but it can be a little overwhelming. In this blog post I will show the options that are most relevant for classical music.
+In the past year, I've tried out various Android apps for sheet music. (Apple's iOS may have more choices, but [I'm not a fan of Apple](https://stallman.org/apple.html).) My favourite among them was [MobileSheets](https://play.google.com/store/apps/details?id=com.zubersoft.mobilesheetspro), which also has a free trial version available [here](https://play.google.com/store/apps/details?id=com.zubersoft.mobilesheetsfree). There's a [manual](https://www.zubersoft.com/mobilesheets/manual.html), but it can be a bit overwhelming. In this blog post, I'll show you which options are most relevant for classical music.
 
-The three primary functions that make me 
+The three main features that make MobileSheets my favourite app:
 
-De drie voornaamste functies waardoor ik MobileSheets de beste app vind:
-
-1. [Automatisch wegsnijden van de paginamarges](#margessnijden) van bladmuziek 
-2. [Referentiepunten](#linkpoints) om snel met herhalingstekens of *da capo*'s te kunnen werken 
-3. [Concertmodus](#concertstand) waardoor alle menu's tijdelijk uitgeschakeld worden 
+1. [Automatic cropping of page margins](#margessnijden) of sheet music
+2. [Reference points](#linkpoints) for quickly handling repeats or *da capos*
+3. [Concert mode](#concertstand) that temporarily disables all menus
 
 <div class="flex items-center justify-center pa4 bg-lightest-blue navy">
   <svg class="w3-ns w4" data-icon="info" viewBox="0 0 32 32" style="fill:currentcolor">
     <title>info icon</title>
     <path d="M16 0 A16 16 0 0 1 16 32 A16 16 0 0 1 16 0 M19 15 L13 15 L13 26 L19 26 z M16 6 A3 3 0 0 0 16 12 A3 3 0 0 0 16 6"></path>
   </svg>
-  <span class="lh-title ml3">Let op: MobileSheets is bedoeld voor de wat serieuzere muzikant die bereid is wat oefening in de app te steken. Als je slechts simpele weergave van je bladmuziek zoekt zonder te veel poespas, kijk dan naar <a href="#andereApps">mijn lijst met andere apps</a> onderaan deze blogpost. </span>
+  <span class="lh-title ml3">Note: MobileSheets is intended for the more serious musician who is willing to put in some practice with the app. If you're just looking for simple display of your sheet music without too much fuss, check out <a href="#andereApps">my list of other apps</a> at the bottom of this blog post.</span>
 </div>
 
-## Muziekbibliotheek
+## Music Library
 
-Als je de app opent zal je eerst toestemming moeten verlenen om de app toegang te geven tot je bestanden. Druk hier op ja.
+When you open the app, you'll first need to grant permission for the app to access your files. Press yes here.
 
 <figure class="fr-ns w-50-ns br3 ma1 ba b--light-gray caption tc f7">
 <a href="/images/blog/2019/welkomstvraag.jpg">
-<img src="/images/blog/2019/welkomstvraag.jpg" alt="Welkomstvraag" class="br3 br--top"></a>
-Niet de meest gebruikersvriendelijke keuze ooit, om gelijk dergelijke taal rond te strooien.
+<img src="/images/blog/2019/welkomstvraag.jpg" alt="Welcome question" class="br3 br--top"></a>
+A very technical question in Dutch about having Mobilesheets manage where imported files are stored.
 </figure>
-De app stelt dan een ingewikkelde vraag (zie afbeelding). Je kan het makkelijkst op "ja" drukken. Dat kost meer schijfruimte, maar is uiteindelijk makkelijker met het overzicht bewaren van aantekeningen die je gaat maken.
+The app then asks a complicated question (see image). The easiest thing to do is press "yes." This takes up more disk space, but ultimately makes it easier to keep track of any annotations you make.
 
-Je ziet dan de muziekbibliotheek: een overzicht van alle bladmuziek die je hebt geïmporteerd. Nu zal alles nog leeg zijn.
+You'll then see the music library: an overview of all the sheet music you've imported. Right now, everything will be empty.
 
 <figure class="br3 ma1 ba b--light-gray caption tc f7 mw5">
 <a href="/images/blog/2019/openingsscherm.png">
-  	<img src="/images/blog/2019/openingsscherm.png" alt="Openingsscherm" class="br3 br--top"></a>
-  	Een lege bibliotheek verwelkomt je.
+    <img src="/images/blog/2019/openingsscherm.png" alt="Opening screen" class="br3 br--top"></a>
+    An empty library welcomes you.
 </figure>
 
 <section class="mw5 mw7-ns center bg-lightest-blue pa3 ph5-ns navy pa5-l pa5-m">
   <h1 class="mt0">Tip</h1>
   <p class="lh-copy measure-wide">
-    Je kan meerdere bestanden met bladmuziek tegelijk importeren met MobileSheets, maar je kan beter met een bestandsverkenner de bestanden die je wilt openen één voor één importeren, naarmate je ze nodig hebt. Dan kan je rustig zorgen dat alle informatie goed is ingevuld en dat het afsnijden van de marges goed lukt. 
+    You can import multiple sheet music files at once with MobileSheets, but it's better to use a file explorer to import the files you want to open one by one, as you need them. This allows you to ensure that all information is filled in correctly and that the margin cropping is successful.
     </p>
 </section>
 <figure class="fr-ns w-40-ns br3 ma1 ba b--light-gray caption tc f7">
 <a href="/images/blog/2019/instellingenknop.jpg">
-  	<img src="/images/blog/2019/instellingenknop.jpg" alt="Instellingenknop" class="br3 br--top"></a>
-  	De verstopplaats van de instellingenknop.
+    <img src="/images/blog/2019/instellingenknop.jpg" alt="Settings button" class="br3 br--top"></a>
+    The hiding place of the settings button. (Text in Dutch, but should be in the same place in English.)
 </figure>
 
-### Tabbladen <a name="tabbladen"></a>
+### Tabs <a name="tabbladen"></a>
 
-De bibliotheek is in eerste instantie gevuld met tabbladen die voor klassieke musici overbodig zijn. Dat is makkelijk aan te passen en zorgt voor een overzichtelijkere bibliotheek. Voor klassieke muziek heb je eigenlijk alleen een tab met componisten nodig en eventueel een tab met de titels van muziek. Een tab met recent geopende bestanden is een handige derde tab.
+The library is initially filled with tabs that are unnecessary for classical musicians. This is easy to adjust and makes for a library that's much easier to navigate. For classical music, you really only need a tab with composers and possibly a tab with music titles. A tab with recently opened files is a handy third tab. (And honestly my most used tab by far.)
 
-Druk hiervoor op de drie puntjes onder elkaar, rechtsboven, en ga naar de "Bibliotheek instellingen" (inclusief nare spatiefout). Hier is een groot aantal instellingen te vinden. Lees deze rustig even door, zodat je weet dat de opties er zijn. Probeer ook wat dingen uit, zo kan ik het donkere thema aanraden en hoeven voor klassieke componisten lettertekens niet "genormaliseerd" te worden.
+To do this, press the three dots stacked on top of each other in the top right corner, and go to "Library settings". Here you'll find a large number of settings. Read through them carefully so you know the options are there. Also, try out some things; for example, I can recommend the dark theme, and for classical composers, characters don't need to be "normalized."
 
 <figure class="fr-ns w-30-ns br3 ma1 ba b--light-gray caption tc f7">
 <a href="/images/blog/2019/titelopmaak.jpg">
-  	<img src="/images/blog/2019/titelopmaak.jpg" alt="Titelopmaak" class="br3 br--top"></a>
-  	Op deze manier staat de naam van de componist steeds vooraan in de bibliotheek.
+    <img src="/images/blog/2019/titelopmaak.jpg" alt="Title formatting" class="br3 br--top"></a>
+    This way, the composer's name is always at the front of the library.
 </figure>
 
-Specifieke instellingen die handig zijn voor klassieke muziek zijn te vinden onder de knop "Titelopmaak Muziekstukken". Deze kan je beter instellen zoals in de afbeelding hiernaast.
+Specific settings that are useful for classical music can be found under the "Piece Title Formatting" button. I would recommend setting this as in the image to the right.
 
-Druk vervolgens op "Tab volgorde" [_sic_]. Hier kan ik de tabs zoals in de afbeelding hieronder aanbevelen. De rest van de tabs zijn voor popmusici misschien interessanter, maar voor de meeste klassieke muziek niet erg relevant.
+Then press "Tab Selection and Order". Here, I can recommend the tabs as in the image below. The rest of the tabs might be more interesting for pop musicians, but not very relevant for most classical music.
+
+**Update 2025: These days I also use the "Setlists" tab.**
 
 <figure class="br3 ma1 ba b--light-gray caption tc f7 mw5">
 <a href="/images/blog/2019/tabvolgorde.jpg">
-  	<img src="/images/blog/2019/tabvolgorde.jpg" alt="Tabvolgorde" class="br3 br--top"></a>
-  	Deze drie tabs zijn voor de meeste klassieke musici wel voldoende.
+    <img src="/images/blog/2019/tabvolgorde.jpg" alt="Tab order" class="br3 br--top"></a>
+    These three tabs are sufficient for most classical musicians.
 </figure>
 
-## Andere instellingen
+## Other Settings
 
-Laat je niet intimideren door alle knopjes: de instellingen van MobileSheets zijn een kleine tijdsinvestering wel waard om alles naar smaak te kunnen instellen. Een overzicht van de meest relevante opties per tab van de instellingen:
+Don't be intimidated by all the buttons: the MobileSheets settings are well worth a small time investment to be able to set everything to your liking. An overview of the most relevant options per tab of the settings:
 
-- **Opslagruimte:** Hier kan je onder andere Dropbox en Google Drive instellen.
-- **Weergave instellingen:** De standaardinstellingen hier zijn goed, alleen schakelde ik de omsla-animatie hier uit om sneller de volgende pagina te kunnen zien in de hitte van de strijd.
-- **Importeerinstellingen:** Hier heb ik agressief bijsnijden ingeschakeld. Hoe minder marge hoe beter op een klein scherm. Wat heb je aan witruimte op een tablet?
+- **Storage:** Here you can set up Dropbox and Google Drive, among other things.
+- **Display settings:** The default settings here are good, but I turned off the page-turning animation here to be able to see the next page faster in the heat of the battle.
+- **Import settings:** Here I enabled aggressive cropping. The less margin, the better on a small screen. What do you need whitespace for on a tablet?
   <figure class="fr-ns w-40-ns br3 ma1 ba b--light-gray caption tc f7">
   <a href="/images/blog/2019/aanraakacties.jpg">
-    	<img src="/images/blog/2019/aanraakacties.jpg" alt="Aanraakacties" class="br3 br--top"></a>
-    	Zo zorgen de meeste aanraakgebieden gewoon voor het omslaan van de bladzijde.
+      <img src="/images/blog/2019/aanraakacties.jpg" alt="Touch actions" class="br3 br--top"></a>
+      This way, most touch areas simply turn the page.
   </figure>
-- **Aanraak- en pedaalinstellingen:** <a name="aanraakacties"></a> Hier staan opties voor bluetooth-pedalen. Dit heb ik zelf nog niet gebruikt. Wel handig is het om te kijken naar de "Aanraakacties". Het scherm is grofweg in te delen in een raster (zie [verderop in deze blogpost](#aanraakgebieden)). Met deze opties kan je instellen wat elk van de cellen van het raster doen als je er op drukt. Ik raad de instellingen in de afbeelding aan.
-- **Tekstbestandinstellingen:** Vooral relevant voor mensen die van (gitaar)tabs spelen, waarvan de "bladmuziek" vaak in tekstbestanden staat.
-- **MIDI instellingen:** Dit heb ik nog niet gebruikt en is vermoedelijk ook relevanter voor popmusici.
-- **Backup en herstel:** Kan van pas komen als je op een gegeven moment een nieuwe tablet gaat kopen.
-- **Overige instellingen:** Lees deze even door om te kijken wat mogelijk is. Ik raad aan de Audiospeler uit te schakelen in de "Optreden Modus" zodat je minder gevaar loopt op het opeens afspelen van audio tijdens een concert.
+- **Touch and pedal settings:** <a name="aanraakacties"></a> Here are options for Bluetooth pedals. I haven't used this myself yet. It's useful to look at the "Touch Actions." The screen can be roughly divided into a grid (see [later in this blog post](#aanraakgebieden)). With these options, you can set what each of the cells of the grid do when you press them. I recommend the settings in the image.
+- **Text file settings:** Especially relevant for people who play (guitar) tabs, whose "sheet music" is often in text files.
+- **MIDI settings:** I haven't used this yet and it's probably more relevant for pop musicians.
+- **Backup and restore:** Can come in handy if you're going to buy a new tablet at some point.
+- **Other settings:** Read through these to see what's possible. I recommend disabling the Audio Player in "Performance Mode" so you're less likely to suddenly play audio during a concert.
 
 <figure class="fr-ns w-30-ns br3 ma1 ba b--light-gray caption tc f7">
 <a href="/images/blog/2019/importeren.jpg">
   	<img src="/images/blog/2019/importeren.jpg" alt="Muziek_importeren" class="br3 br--top"></a>
-  	Druk op "Importeren naar MobileSheets".
+  	Press "Import to MobileSheets".
 </figure>
 
-## Bladmuziek bekijken
+## Viewing Sheet Music
 
-Als de instellingen eenmaal geoptimaliseerd zijn voor klassieke muziek is het tijd om je eerste stuk bladmuziek te importeren. Als voorbeeld heb ik van [IMSLP](https://imslp.org) een [klavieruitreksel van de Matthäuspassion](<https://imslp.org/wiki/Matth%C3%A4uspassion%2C_BWV_244_(Bach%2C_Johann_Sebastian)#tabScore3>) gedownload.
+Once the settings are optimized for classical music, it's time to import your first piece of sheet music. As an example, I downloaded a [piano reduction of the St. Matthew Passion](<https://imslp.org/wiki/Matth%C3%A4uspassion%2C_BWV_244_(Bach%2C_Johann_Sebastian)#tabScore3>) from [IMSLP](https://imslp.org).
 
-Als je het bestand importeert kom je op een scherm waar je het bestand kan aanpassen vóór het aan je bibliotheek wordt toegevoegd. In deze blogpost ga ik de tabbladen met "Velden" en "Bestanden" behandelen, in een volgende post zal ik laten zien hoe je een mp3-bestand aan je bladmuziek kan koppelen om te helpen bij het studeren.
+When you import the file, you'll come to a screen where you can edit the file before it's added to your library. In this blog post, I'll cover the "Fields" and "Files" tabs; in a future post, I'll show you how to link an MP3 file to your sheet music to help with studying.
 
 <div class="pa5-ns"></div>
 
 <figure class="fr-ns w-50-ns br3 ma1 ba b--light-gray caption tc f7">
 <a href="/images/blog/2019/bestanden.jpg">
-  	<img src="/images/blog/2019/bestanden.jpg" alt="Bestanden-tab" class="br3"></a>
+    <img src="/images/blog/2019/bestanden.jpg" alt="Files tab" class="br3"></a>
 </figure>
 
-### "Bestanden"-tab
+### "Files" Tab
 
-Bovenin het scherm zie je de bestanden die bij dit muziekstuk horen. Meestal staat hier maar één bestand, zoals nu. Als het muziekstuk uit meerdere losse afbeeldingen of pdf-bestanden bestaat kan je die met de knoppen rechts toevoegen. Dit zou vrij vanzelfsprekend moeten gaan. Zoniet, zie dan de [handleiding](https://www.zubersoft.com/mobilesheets/MobileSheetsPro.pdf).
+At the top of the screen, you'll see the files that belong to this piece of music. Usually, there's only one file here, as now. If the piece of music consists of multiple separate images or PDF files, you can add them with the buttons on the right. This should be fairly self-explanatory. If not, see the [manual](https://www.zubersoft.com/mobilesheets/MobileSheetsPro.pdf).
 
-<a name="margessnijden"></a>Linksonderin het scherm staat de optie om alle pagina's te draaien of alleen de pagina die op dit moment wordt getoond. Rechtsonder is de krachtigste functie van de app te vinden: het **automatisch wegsnijden van de paginamarges**, waardoor de bladmuziek zo groot mogelijk op je tabletscherm kan worden getoond. Dit kan je per pagina doen door op het <img src="/images/blog/2019/crop.svg" alt="Crop icon" class="h1">-icoontje te drukken of je kan op "automatisch bijsnijden" drukken, waardoor de app het voor je doet.
+<a name="margessnijden"></a>In the bottom left of the screen is the option to rotate all pages or only the page currently displayed. In the bottom right is the most powerful feature of the app: **automatic cropping of page margins**, which allows the sheet music to be displayed as large as possible on your tablet screen. You can do this per page by pressing the <img src="/images/blog/2019/crop.svg" alt="Crop icon" class="h1"> icon, or you can press "automatic crop," and the app will do it for you.
 
-Als het automatisch bijsnijden onverhoopt iets te enthousiast was waardoor er noten van de pagina afvallen kan je altijd terug naar dit scherm om handmatige wijzigingen aan te brengen.
+If the automatic cropping was inadvertently too enthusiastic, causing notes to fall off the page, you can always return to this screen to make manual adjustments.
 
-### "Velden"-tab
+### "Fields" Tab
 
 <figure class="fr-ns w-50-ns br3 ma1 ba b--light-gray caption tc f7">
 <a href="/images/blog/2019/veldenIngevuld.jpg">
-  	<img src="/images/blog/2019/veldenIngevuld.jpg" alt="Velden-ingevuld" class="br3"></a>
+    <img src="/images/blog/2019/veldenIngevuld.jpg" alt="Fields filled" class="br3"></a>
 </figure>
 
-Op deze pagina kan je de zogenaamde meta-informatie van het muziekstuk invullen. Standaard staan er veel velden ingeschakeld die je kan invullen, maar ik heb zelf alle velden uitgeschakeld behalve "Componisten". Doe dat door op "Velden instellen" bovenin het scherm te drukken en alle vinkjes weg te halen behalve die voor "componisten". Of niet, natuurlijk, als jij bepaalde velden wél handig vindt! (In dat geval zal je vermoedelijk het bijbehorende tabblad in de [bibliotheek](#tabbladen) weer terug willen.)
+On this page, you can fill in the so-called meta-information of the piece of music. By default, many fields are enabled that you can fill in, but I have disabled all fields except "Composers." Do this by pressing "Set fields" at the top of the screen and unchecking all boxes except the one for "composers." Or not, of course, if you find certain fields useful! (In that case, you'll probably want to restore the corresponding tab in the [library](#tabbladen).)
 
-Druk nu bovenaan op OK en je bibliotheek zal z'n eerste muziekstuk hebben.
+Now press OK at the top, and your library will have its first piece of music.
 
 <figure class="w-30-ns br3 ma1 ba b--light-gray caption tc f7 center">
 <a href="/images/blog/2019/tabvolgorde.jpg">
-  	<img src="/images/blog/2019/tabvolgorde.jpg" alt="Tabvolgorde" class="br3 br--top"></a>
-  	Het kan natuurlijk voorkomen dat je je muziek op genre wil sorteren als je een erg grote bibliotheek hebt. Of je kan een "Custom group" maken voor instrumentatie.
+    <img src="/images/blog/2019/tabvolgorde.jpg" alt="Tab order" class="br3 br--top"></a>
+    It can of course happen that you want to sort your music by genre if you have a very large library. Or you can create a "Custom group" for instrumentation.
 </figure>
 
-## Bladmuziek weergeven en aantekeningen maken
+## Displaying Sheet Music and Making Annotations
 
-Open een stuk bladmuziek door erop te drukken in de bibliotheek.
+Open a piece of sheet music by pressing it in the library.
 
 <figure class="fr-ns w-40-ns br3 ma1 ba b--light-gray caption tc f7">
 <a href="/images/blog/2019/paginaAanraakgebieden.jpg">
-  	<img src="/images/blog/2019/paginaAanraakgebieden.jpg" alt="Aanraakgebieden" class="br3 br--top"></a>
-  	 Het bladmuziekscherm is ingedeeld in een onzichtbaar raster van aanraakgebieden met drie rijen en drie kolommen.
+    <img src="/images/blog/2019/paginaAanraakgebieden.jpg" alt="Touch areas" class="br3 br--top"></a>
+     The sheet music screen is divided into an invisible grid of touch areas with three rows and three columns.
 </figure>
 
 <a name="aanraakgebieden"></a>
-Het scherm is in negen onzichtbare "aanraakgebieden" onderverdeeld. Deze heb je ingesteld bij de ["aanraakacties"](#aanraakacties) bij de instellingen. Als je mijn instellingen daar volgt krijg je de volgende effecten:
+The screen is divided into nine invisible "touch areas." You set these in the ["touch actions"](#aanraakacties) in the settings. If you follow my settings there, you'll get the following effects:
 
-1. Vorige pagina
-2. Vorige pagina
-3. Vorige pagina
-4. Toon overlayscherm
-5. Toon overlayscherm
-6. Maak aantekeningen
-7. Volgende pagina
-8. Volgende pagina
-9. "Snelle actie box"
+1. Previous page
+2. Previous page
+3. Previous page
+4. Show overlay screen
+5. Show overlay screen
+6. Make annotations
+7. Next page
+8. Next page
+9. "Quick action box"
 
-Als je deze aanraakgebieden eenmaal snapt zal dat je navigatie sterk vergemakkelijken. Het **overlayscherm**, het **aantekeningenscherm** en de **"Snelle actie box"** zijn de drie navigatieschermen die je goed onder de knie wilt krijgen om snel te kunnen werken tijdens repetities en concerten.
+Once you understand these touch areas, it make navigation much easier. The **overlay screen**, the **annotation screen**, and the **"Quick action box"** are the three navigation screens you want to master to work quickly during rehearsals and concerts.
 
-### Overlayscherm
+### Overlay Screen
 
-Het overlayscherm is te bereiken door op vakje 4 of 5 te drukken, en verdwijnt ook weer als je nog eens op 4 of 5 drukt.
+The overlay screen is accessed by pressing box 4 or 5, and disappears again when you press 4 or 5 again.
 
-Een korte beschrijving van de belangrijkste knoppen:
+A brief description of the most important buttons:
 
 <section class="cf w-100 pa2-ns">
   <article class="fl w-100 w-50-m  w-third-ns pa2-ns">
     <div class="aspect-ratio aspect-ratio--1x1">
     <a href="/images/blog/2019/knopjesLinksboven.jpg" class="ph2 ph0-ns pb3 link db">
-      <img style="background-image:url(/images/blog/2019/knopjesLinksboven.jpg);" 
+      <img style="background-image:url(/images/blog/2019/knopjesLinksboven.jpg);"
       class="db bg-center cover aspect-ratio--object" /></a>
     </div>
-      <h3 class="f6 f5 fw4 mt2 black-60">Van links naar rechts: 
+      <h3 class="f6 f5 fw4 mt2 black-60">From left to right:
           <ul>
-  <li>Terug naar bibliotheek</li>
-	<li>Notities schrijven over het stuk. Je kan deze op het scherm laten zien elke keer dat je het bestand opent</li>
-	<li>Open het aantekeningenscherm</li>
-	<li>Open opnieuw het scherm waar je het bijsnijden van de marges en meta-informatie kan aanpassen</li>
+  <li>Return to library</li>
+  <li>Write notes about the piece. You can display these on the screen every time you open the file</li>
+  <li>Open the annotation screen</li>
+  <li>Reopen the screen where you can adjust margin cropping and meta-information</li>
 </ul></h3>
-    
+
   </article>
   <article class="fl w-100 w-50-m  w-third-ns pa2-ns">
     <div class="aspect-ratio aspect-ratio--1x1">
     <a href="/images/blog/2019/menuLinksonder.jpg" class="ph2 ph0-ns pb3 link db">
-      <img style="background-image:url(/images/blog/2019/menuLinksonder.jpg);" 
+      <img style="background-image:url(/images/blog/2019/menuLinksonder.jpg);"
       class="db bg-center cover aspect-ratio--object" /></a>
     </div>
-      <h3 class="f6 f5 fw4 mt2 black-60">Deze opties zijn grotendeels vanzelfsprekend. Een "uitknipsel" geeft de mogelijkheid een deel van de bladmuziek te verknippen tot een pdf-bestand van alleen die pagina's.<br> Er zit ook een autoscroll-functie in de app die de muziek automatisch met een ingesteld tempo naar de volgende pagina doet glijden.</h3>  
+      <h3 class="f6 f5 fw4 mt2 black-60">These options are largely self-explanatory. A "Snippet" allows you to clip a part of the sheet music into a PDF file with only those pages.<br> There is also an auto-scroll function in the app that automatically slides the music to the next page at a set tempo.</h3>
   </article>
     <article class="fl w-100 w-50-m  w-third-ns pa2-ns pb7-l">
     <div class="aspect-ratio aspect-ratio--1x1">
     <a href="/images/blog/2019/weergavemenu.jpg" class="ph2 ph0-ns pb3 link db">
-      <img style="background-image:url(/images/blog/2019/weergavemenu.jpg);" 
+      <img style="background-image:url(/images/blog/2019/weergavemenu.jpg);"
       class="db bg-center cover aspect-ratio--object" /></a>
     </div>
-      <h3 class="f6 f5 fw4 mt2 black-60">Geeft de mogelijkheid snel de marges van de huidige pagina bij te snijden, een klok op de bladmuziek te tonen en meer.</h3>  
+      <h3 class="f6 f5 fw4 mt2 black-60">Allows you to quickly crop the margins of the current page, display a clock on the sheet music, and more.</h3>
   </article>
     <article class="fl w-100 w-50-m  w-third-ns pa2-ns">
     <div class="aspect-ratio aspect-ratio--1x1">
     <a href="/images/blog/2019/schuifknopje.jpg" class="ph2 ph0-ns pb3 link db">
-      <img style="background-image:url(/images/blog/2019/schuifknopje.jpg);" 
-      class="db bg-center cover aspect-ratio--object" /></a>
-    </div>
-      <h3 class="f6 f5 fw4 mt2 black-60">Misschien nuttig voor erg grote partituren: hiermee stel je in of je het beeld op de pagina kan verplaatsen door met je vinger eroverheen te wrijven. Als de hele pagina al wordt weergegeven doet deze knop niks.</h3>  
-  </article>
-    <article class="fl w-100 w-50-m  w-third-ns pa2-ns">
-    <div class="aspect-ratio aspect-ratio--1x1">
-    <a href="/images/blog/2019/scherminstelling.jpg" class="ph2 ph0-ns pb3 link db">
-      <img style="background-image:url(/images/blog/2019/scherminstelling.jpg);" 
-      class="db bg-center cover aspect-ratio--object" /></a>
-    </div>
-      <h3 class="f6 f5 fw4 mt2 black-60"><img src="/images/blog/2019/displayMode.png" alt="Crop icon" class="h1">-knop. Instellingen voor de weergave van de bladmuziek op het scherm. De standaardinstellingen zijn voor de meeste bladmuziek wel prima. <br>
-          <b>Tip:</b> Zet de scherminstelling op "Verticaal scrollen". Als je je marges krap genoeg bij hebt gesneden kan je meestal al een stukje van de volgende pagina op je scherm zien, wat net handig kan zijn.</h3>  
-  </article>
-    <article class="fl w-100 w-50-m  w-third-ns pa2-ns pb7-l pb0-m">
-    <div class="aspect-ratio aspect-ratio--1x1">
-    <a href="/images/blog/2019/paginazoommodus.jpg" class="ph2 ph0-ns pb3 link db">
-      <img style="background-image:url(/images/blog/2019/paginazoommodus.jpg);" 
-      class="db bg-center cover aspect-ratio--object" /></a>
-    </div>
-      <h3 class="f6 f5 fw4 mt2 black-60"><img src="/images/blog/2019/pageScaling.png" alt="Crop icon" class="h1">-knop. Als je een kleine tablet hebt kan het handig zijn hier te kiezen voor "Passend in breedte", dat kan helpen met de leesbaarheid.</h3>  
-  </article>
-    <article class="fl w-100 w-50-m  w-third-ns pa2-ns">
-    <div class="aspect-ratio aspect-ratio--1x1">
-    <a href="/images/blog/2019/afspeellijst.jpg" class="ph2 ph0-ns pb3 link db">
-      <img style="background-image:url(/images/blog/2019/afspeellijst.jpg);" 
-      class="db bg-center cover aspect-ratio--object" /></a>
-    </div>
-      <h3 class="f6 f5 fw4 mt2 black-60">Hiermee kan je een "setlist" maken van een concert, als je snel tussen de stukken wilt kunnen wisselen op de goede volgorde.</h3>  
-  </article>
-    <article class="fl w-100 w-50-m  w-third-ns pa2-ns pb0-m">
-    <div class="aspect-ratio aspect-ratio--1x1">
-    <a href="//images/blog/2019/bladwijzers.jpg" class="ph2 ph0-ns pb3 link db">
-      <img style="background-image:url(/images/blog/2019/bladwijzers.jpg);" 
-      class="db bg-center cover aspect-ratio--object" /></a>
-    </div>
-      <h3 class="f6 f5 fw4 mt2 black-60">Ga naar de pagina waar je een bladwijzer voor wilt en druk op + om een bladwijzer te maken. Als je pdf-bestand al bladwijzers had worden deze hier automatisch getoond.</h3>  
-  </article>
-    <article class="fl w-100 w-50-m  w-third-ns pa2-ns">
-    <div class="aspect-ratio aspect-ratio--1x1">
-    <a href="/images/blog/2019/linkpoint.jpg" class="ph2 ph0-ns pb3 link db">
-      <img style="background-image:url(/images/blog/2019/linkpoint.jpg);" 
-      class="db bg-center cover aspect-ratio--object" /></a>
-    </div>
-      <h3 class="f6 f5 fw4 mt2 black-60"><a name="linkpoints"></a>Een handige geavanceerde functie: als je muziekstuk een herhaling (da capo, dal segno...) heeft kan je hiermee een zogenaamd "verwijzingspunt" maken. Druk op +, dan op de plek waar "da capo" of iets dergelijks staat...</h3>  
-  </article>
-    <article class="fl w-100 w-50-m  w-third-ns pa2-ns pb0-l pb0-m">
-    <div class="aspect-ratio aspect-ratio--1x1">
-    <a href="/images/blog/2019/linkpointEnd.jpg" class="ph2 ph0-ns pb3 link db">
-      <img style="background-image:url(/images/blog/2019/linkpointEnd.jpg);" 
-      class="db bg-center cover aspect-ratio--object" /></a>
-    </div>
-      <h3 class="f6 f5 fw4 mt2 black-60">...en dan op de plek waar je terug naartoe wilt gaan. Er verschijnen gekleurde rondjes (de verwijzingspunten) op de pagina waarmee je gelijk naar de herhalingsplek gaat.</h3>  
-  </article>
-    <article class="fl w-100 w-50-m  w-third-ns pa2-ns">
-    <div class="aspect-ratio aspect-ratio--1x1">
-    <a href="/images/blog/2019/linkpointGrootte.jpg" class="ph2 ph0-ns pb3 link db">
-      <img style="background-image:url(/images/blog/2019/linkpointGrootte.jpg);" 
-      class="db bg-center cover aspect-ratio--object" /></a>
-    </div>
-      <h3 class="f6 f5 fw4 mt2 black-60">Hou een verwijzingspunt in de lijst ingedrukt om het formaat van de rondjes in de bladmuziek aan te passen.</h3>  
-  </article>
-    <article class="fl w-100 w-50-m  w-third-ns pa2-ns pb0-m">
-    <div class="aspect-ratio aspect-ratio--1x1">
-    <a href="/images/blog/2019/smartButtons.jpg" class="ph2 ph0-ns pb3 link db">
-      <img style="background-image:url(/images/blog/2019/smartButtons.jpg);" 
-      class="db bg-center cover aspect-ratio--object" /></a>
-    </div>
-      <h3 class="f6 f5 fw4 mt2 black-60">Net zoiets als verwijzingspunten zijn de *smart buttons*. Deze doen echter iets met MIDI, waar klassieke musici meestal niet veel mee te maken hebben.</h3>  
-  </article>
-    <article class="fl w-100 w-50-m  w-third-ns pa2-ns">
-    <div class="aspect-ratio aspect-ratio--1x1">
-    <a href="/images/blog/2019/geluidsspeler.jpg" class="ph2 ph0-ns pb3 link db">
-      <img style="background-image:url(/images/blog/2019/geluidsspeler.jpg);" 
-      class="db bg-center cover aspect-ratio--object" /></a>
-    </div>
-      <h3 class="f6 f5 fw4 mt2 black-60">Hiermee kan je een geluidsbestand afspelen dat aan de bladmuziek is gekoppeld. In een latere blogpost zal ik dit verder behandelen.</h3>  
-  </article>
-    <article class="fl w-100 w-50-m  w-third-ns pa2-ns">
-    <div class="aspect-ratio aspect-ratio--1x1">
-    <a href="/images/blog/2019/metronoom.jpg" class="ph2 ph0-ns pb3 link db">
-      <img style="background-image:url(/images/blog/2019/metronoom.jpg);" 
-      class="db bg-center cover aspect-ratio--object" /></a>
-    </div>
-      <h3 class="f6 f5 fw4 mt2 black-60">Er zit een metronoom ingebouwd in de app. Handig. Een klein pianootje zou ook handig zijn, voor ons zangers, maar dat is er helaas niet.</h3>  
-  </article>
-    <article class="fl w-100 w-50-m  w-third-ns pa2-ns">
-    <div class="aspect-ratio aspect-ratio--1x1">
-    <a href="/images/blog/2019/settings.jpg" class="ph2 ph0-ns pb3 link db">
-      <img style="background-image:url(/images/blog/2019/settings.jpg);" 
-      class="db bg-center cover aspect-ratio--object" /></a>
-    </div>
-      <h3 class="f6 f5 fw4 mt2 black-60">Ten slotte kan je hiermee snel naar de instellingen van de app.</h3>  
-  </article>
-</section>
+              <img style="background-image:url(/images/blog/2019/schuifknopje.jpg);"
+              class="db bg-center cover aspect-ratio--object" /></a>
+            </div>
+              <h3 class="f6 f5 fw4 mt2 black-60">Perhaps useful for very large scores: this allows you to set whether you can move the image on the page by rubbing your finger over it. If the entire page is already displayed, this button does nothing.</h3>
+          </article>
+            <article class="fl w-100 w-50-m  w-third-ns pa2-ns">
+            <div class="aspect-ratio aspect-ratio--1x1">
+            <a href="/images/blog/2019/scherminstelling.jpg" class="ph2 ph0-ns pb3 link db">
+              <img style="background-image:url(/images/blog/2019/scherminstelling.jpg);"
+              class="db bg-center cover aspect-ratio--object" /></a>
+            </div>
+              <h3 class="f6 f5 fw4 mt2 black-60"><img src="/images/blog/2019/displayMode.png" alt="Crop icon" class="h1">-button. Settings for the display of the sheet music on the screen. The default settings are fine for most sheet music. <br>
+                  <b>Tip:</b> Set the screen setting to "Vertical scrolling." If you've cropped your margins tight enough, you can usually see a bit of the next page on your screen, which can be quite handy.</h3>
+          </article>
+            <article class="fl w-100 w-50-m  w-third-ns pa2-ns pb7-l pb0-m">
+            <div class="aspect-ratio aspect-ratio--1x1">
+            <a href="/images/blog/2019/paginazoommodus.jpg" class="ph2 ph0-ns pb3 link db">
+              <img style="background-image:url(/images/blog/2019/paginazoommodus.jpg);"
+              class="db bg-center cover aspect-ratio--object" /></a>
+            </div>
+              <h3 class="f6 f5 fw4 mt2 black-60"><img src="/images/blog/2019/pageScaling.png" alt="Crop icon" class="h1">-button. If you have a small tablet, it may be useful to choose "Fit to width" here, which can help with readability.</h3>
+          </article>
+            <article class="fl w-100 w-50-m  w-third-ns pa2-ns">
+            <div class="aspect-ratio aspect-ratio--1x1">
+            <a href="/images/blog/2019/afspeellijst.jpg" class="ph2 ph0-ns pb3 link db">
+              <img style="background-image:url(/images/blog/2019/afspeellijst.jpg);"
+              class="db bg-center cover aspect-ratio--object" /></a>
+            </div>
+              <h3 class="f6 f5 fw4 mt2 black-60">This allows you to create a "setlist" of a concert if you want to be able to quickly switch between pieces in the correct order.</h3>
+          </article>
+            <article class="fl w-100 w-50-m  w-third-ns pa2-ns pb0-m">
+            <div class="aspect-ratio aspect-ratio--1x1">
+            <a href="//images/blog/2019/bladwijzers.jpg" class="ph2 ph0-ns pb3 link db">
+              <img style="background-image:url(/images/blog/2019/bladwijzers.jpg);"
+              class="db bg-center cover aspect-ratio--object" /></a>
+            </div>
+              <h3 class="f6 f5 fw4 mt2 black-60">Go to the page for which you want to create a bookmark and press + to create a bookmark. If your PDF file already had bookmarks, they will be displayed here automatically.</h3>
+          </article>
+            <article class="fl w-100 w-50-m  w-third-ns pa2-ns">
+            <div class="aspect-ratio aspect-ratio--1x1">
+            <a href="/images/blog/2019/linkpoint.jpg" class="ph2 ph0-ns pb3 link db">
+              <img style="background-image:url(/images/blog/2019/linkpoint.jpg);"
+              class="db bg-center cover aspect-ratio--object" /></a>
+            </div>
+              <h3 class="f6 f5 fw4 mt2 black-60"><a name="linkpoints"></a>A handy advanced feature: if your piece of music has a repeat (da capo, dal segno...), you can use this to create a so-called "Link." Press +, then on the spot where "da capo" or something similar is...</h3>
+          </article>
+            <article class="fl w-100 w-50-m  w-third-ns pa2-ns pb0-l pb0-m">
+            <div class="aspect-ratio aspect-ratio--1x1">
+            <a href="/images/blog/2019/linkpointEnd.jpg" class="ph2 ph0-ns pb3 link db">
+              <img style="background-image:url(/images/blog/2019/linkpointEnd.jpg);"
+              class="db bg-center cover aspect-ratio--object" /></a>
+            </div>
+              <h3 class="f6 f5 fw4 mt2 black-60">...and then on the spot where you want to go back to. Colored circles (the Links) appear on the page, allowing you to immediately go to the repeat spot.</h3>
+          </article>
+            <article class="fl w-100 w-50-m  w-third-ns pa2-ns">
+            <div class="aspect-ratio aspect-ratio--1x1">
+            <a href="/images/blog/2019/linkpointGrootte.jpg" class="ph2 ph0-ns pb3 link db">
+              <img style="background-image:url(/images/blog/2019/linkpointGrootte.jpg);"
+              class="db bg-center cover aspect-ratio--object" /></a>
+            </div>
+              <h3 class="f6 f5 fw4 mt2 black-60">Hold a reference point in the list to adjust the size of the circles in the sheet music.</h3>
+          </article>
+            <article class="fl w-100 w-50-m  w-third-ns pa2-ns pb0-m">
+            <div class="aspect-ratio aspect-ratio--1x1">
+            <a href="/images/blog/2019/smartButtons.jpg" class="ph2 ph0-ns pb3 link db">
+              <img style="background-image:url(/images/blog/2019/smartButtons.jpg);"
+              class="db bg-center cover aspect-ratio--object" /></a>
+            </div>
+              <h3 class="f6 f5 fw4 mt2 black-60">Similar to reference points are the *smart buttons*. However, these do something with MIDI, which classical musicians usually don't have much to do with.</h3>
+          </article>
+            <article class="fl w-100 w-50-m  w-third-ns pa2-ns">
+            <div class="aspect-ratio aspect-ratio--1x1">
+            <a href="/images/blog/2019/geluidsspeler.jpg" class="ph2 ph0-ns pb3 link db">
+              <img style="background-image:url(/images/blog/2019/geluidsspeler.jpg);"
+              class="db bg-center cover aspect-ratio--object" /></a>
+            </div>
+              <h3 class="f6 f5 fw4 mt2 black-60">This allows you to play a sound file that is linked to the sheet music. I will discuss this further in a later blog post.</h3>
+          </article>
+            <article class="fl w-100 w-50-m  w-third-ns pa2-ns">
+            <div class="aspect-ratio aspect-ratio--1x1">
+            <a href="/images/blog/2019/metronoom.jpg" class="ph2 ph0-ns pb3 link db">
+              <img style="background-image:url(/images/blog/2019/metronoom.jpg);"
+              class="db bg-center cover aspect-ratio--object" /></a>
+            </div>
+              <h3 class="f6 f5 fw4 mt2 black-60">There is a metronome built into the app. Handy. A small piano would also be handy for us singers, but unfortunately, that's not there.</h3>
+          </article>
+            <article class="fl w-100 w-50-m  w-third-ns pa2-ns">
+            <div class="aspect-ratio aspect-ratio--1x1">
+            <a href="/images/blog/2019/settings.jpg" class="ph2 ph0-ns pb3 link db">
+              <img style="background-image:url(/images/blog/2019/settings.jpg);"
+              class="db bg-center cover aspect-ratio--object" /></a>
+            </div>
+              <h3 class="f6 f5 fw4 mt2 black-60">Finally, this allows you to quickly go to the app's settings.</h3>
+          </article>
+        </section>
 
-### "Snelle actie box"
+### "Quick Action Box"
 
 <figure class="fr-ns w-30-ns br3 ma1 ba b--light-gray caption tc f7">
   <a href="/images/blog/2019/snelleActiebox.jpg">
-    	<img src="/images/blog/2019/snelleActiebox.jpg" alt="Snelle actie box" class="br3 br--top"></a>
-    	Steenkoolvertalingen als "Snelle actie box" zijn waarom ik mijn apps meestal op Engels laat staan.
+      <img src="/images/blog/2019/snelleActiebox.jpg" alt="Quick action box" class="br3 br--top"></a>
+      This was translated into Dutch quite clunkily, which is why I usually leave my apps in English.
   </figure>
 
-Pakkende naam, niet? Hier zitten een aantal knoppen die ook in het overlayscherm zitten waarvan de ontwikkelaar van de app dacht dat ze het meest gebruikt zouden worden.
+Catchy name, isn't it? Here are a number of buttons that are also in the overlay screen, which the app's developer thought would be used the most.
 
-<a name="concertstand"></a>De middelste knop is niet te vinden in het overlayscherm: deze is voor de **concertstand**. Dit is een soort veiligheidsstand: alle [aanraakgebieden](#aanraakgebieden) van het scherm worden uitgeschakeld behalve de "Snelle actie box" rechtsonder, waardoor je niet tijdens een concert per ongeluk een of ander menu opent als je wilt omslaan. Het scherm aanraken zorgt nu altijd dat je naar de volgende of vorige bladzijde gaat. De concertstand-knop is ook in de bibliotheek te vinden.
+<a name="concertstand"></a>The middle button is not found in the overlay screen: this is for **concert mode**. This is a kind of safety mode: all [touch areas](#aanraakgebieden) of the screen are disabled except for the "Quick action box" in the bottom right, so you don't accidentally open some menu during a concert when you want to turn the page. Touching the screen now always ensures that you go to the next or previous page. The concert mode button can also be found in the library.
 
-### Aantekeningen
+### Annotations
 
 <figure class="fr-ns w-30-ns br3 ma1 ba b--light-gray caption tc f7">
   <a href="/images/blog/2019/aantekeningen.jpg">
-    	<img src="/images/blog/2019/aantekeningen.jpg" alt="Aantekeningen" class="br3 br--top"></a>
-    	Lekker kliederen.
+      <img src="/images/blog/2019/aantekeningen.jpg" alt="Annotations" class="br3 br--top"></a>
+      Having fun scribbling.
   </figure>
 
-De aantekeningenmodus is vrij vanzelfsprekend. De knop voor "ongedaan maken" zit linksboven, dus leef je uit en experimenteer. Een paar tips:
+<div class="flex items-center justify-center pa4 bg-lightest-blue navy">
+  <svg class="w3-ns w4" data-icon="info" viewBox="0 0 32 32" style="fill:currentcolor">
+    <title>info icon</title>
+    <path d="M16 0 A16 16 0 0 1 16 32 A16 16 0 0 1 16 0 M19 15 L13 15 L13 26 L19 26 z M16 6 A3 3 0 0 0 16 12 A3 3 0 0 0 16 6"></path>
+  </svg>
+  <span class="lh-title ml3">Update 2025: This looks a bit different today. But most of the actual options are still the same, if in a different place.</span>
+</div>
 
-- De instellingen voor pen en markeerstift die ik gebruik zijn een goed begin, maar kijk vooral wat voor jou goed werkt
-- "Vloeiende modus" probeert je aantekeningen minder hoekerig te maken maar zorgt doorgaans voor minder precisie. Meestal niet aan te raden.
-- In het menu linksboven staat alles al wel goed. Twee opmerkingen:
-  - De stylusmodus is bedoeld voor een ["actieve" stylus](/posts/Android-tablets-klassieke-musicus#stylus). Met een normale "passieve" stylus werkt dit niet.
-  - Auto-save bij het wisselen van pagina's is aan te raden. Als je tijdens het aantekenen snel door het bestand bladert met de knoppen rechtsboven druk je makkelijk per ongeluk op de annuleren-knop ernaast.
-- Met de pijltjes in dit kastje  kan je de aantekening die je net hebt gemaakt met precisie verplaatsen: <img src="/images/blog/2019/zweefknop.jpg" alt="Crop icon" class="h3">
-- Zie ook de tip in mijn andere blogpost: [zoom in](/posts/Android-tablets-klassieke-musicus#tipZoomen) voordat je gaat schrijven.
-- Door met twee vingers tegelijk op je scherm te tikken wissel je snel tussen pen/markeerstift en de "verplaatsmodus". Erg handig als je ingezoomd hebt en op een ander deel van het scherm een aantekening wil maken.
+
+The annotation mode is quite self-explanatory. The "undo" button is in the top left, so go ahead and experiment. A few tips:
+
+- The pen and highlighter settings I use are a good start, but see what works best for you.
+- "Smooth mode" tries to make your annotations less angular but usually results in less precision. Not usually recommended.
+- Everything is already set correctly in the menu at the top left. Two remarks:
+  - Stylus mode is intended for an ["active" stylus](/posts/Android-tablets-klassieke-musicus#stylus). This does not work with a normal "passive" stylus.
+  - Auto-save when changing pages is recommended. If you quickly scroll through the file while annotating with the buttons at the top right, you can easily accidentally press the cancel button next to it.
+- With the arrows in this box, you can precisely move the annotation you just made: <img src="/images/blog/2019/zweefknop.jpg" alt="Crop icon" class="h3">
+- Also see the tip in my other blog post: [zoom in](/posts/Android-tablets-klassieke-musicus#tipZoomen) before you start writing.
+- By tapping your screen with two fingers at the same time, you can quickly switch between pen/highlighter and "move mode." Very handy if you're zoomed in and want to make an annotation on another part of the screen.
 
 <div class="center">
   <div class="cf ph2-ns">
     <div class="fl w-100 w-50-ns pa2">
       <figure class="br3 ba b--light-gray caption tc f7">
     <a href="/images/blog/2019/peninstellingen.jpg">
-    	<img src="/images/blog/2019/peninstellingen.jpg" alt="Peninstellingen" class="br3 br--top"></a>
-    	Mijn instellingen voor de pen.
+      <img src="/images/blog/2019/peninstellingen.jpg" alt="Pen settings" class="br3 br--top"></a>
+      My pen settings.
   </figure>
     </div>
     <div class="fl w-100 w-50-ns pa2">
       <figure class="br3 ba b--light-gray caption tc f7">
     <a href="/images/blog/2019/markeerinstellingen.jpg">
-    	<img src="/images/blog/2019/markeerinstellingen.jpg" alt="Markeerstiftinstellingen" class="br3 br--top"></a>
-    	Mijn instellingen voor de markeerstift.
+      <img src="/images/blog/2019/markeerinstellingen.jpg" alt="Highlighter settings" class="br3 br--top"></a>
+      My highlighter settings.
   </figure>
   </div>
   </div>
 </div>
 
-## Andere apps <a name="andereApps"></a>
+## Other Apps <a name="andereApps"></a>
 
-Naast MobileSheets bestaan er ook een aantal andere apps voor bladmuziek. Hieronder kort op een rijtje wat observaties.
+In addition to MobileSheets, there are also a number of other apps for sheet music. Below is a brief list with some observations.
 
 <main class="mw6 center">
   <article>
@@ -379,10 +388,10 @@ Naast MobileSheets bestaan er ook een aantal andere apps voor bladmuziek. Hieron
       </div>
       <div class="dtc v-top pl2">
         <h1 class="f6 f5-ns fw6 lh-title black mv0">My Sheet Music</h1>
-        <h2 class="f6 fw4 mt2 mb0 black-60">App die bedoeld is om bladmuziek op je smartphone te bekijken, niet op een tablet. Als het even kan moet je dat hele scenario zien te vermijden, maar in noodgevallen kan deze app uitkomst bieden.</h2>
+        <h2 class="f6 fw4 mt2 mb0 black-60">App intended for viewing sheet music on your smartphone, not on a tablet. If possible, you should avoid this entire scenario, but in emergencies, this app can provide a solution. <b>Seems to be discontinued in 2025.</b></h2>
         <dl class="mt2 f6">
-          <dt class="clip">Prijs</dt>
-          <dd class="ml0">€2,99</dd>
+          <dt class="clip">Price</dt>
+          <dd class="ml0">€2.99</dd>
         </dl>
       </div>
     </a>
@@ -394,10 +403,10 @@ Naast MobileSheets bestaan er ook een aantal andere apps voor bladmuziek. Hieron
       </div>
       <div class="dtc v-top pl2">
         <h1 class="f6 f5-ns fw6 lh-title black mv0">Orpheus Sheet Music PRO</h1>
-        <h2 class="f6 fw4 mt2 mb0 black-60">Heeft ook een gratis versie. Simpeler dan MobileSheets en met een minder actieve ontwikkelaar. Mist in zijn simpelheid bovendien veel functies die MobileSheets wel heeft. Weliswaar is deze app goedkoper, maar hij voegt voor dat geld weinig toe aan een simpele PDF-viewer.</h2>
+        <h2 class="f6 fw4 mt2 mb0 black-60">Also has a free version. Simpler than MobileSheets and with a less active developer. In its simplicity, it also lacks many features that MobileSheets does have. Although this app is cheaper, it adds little to a simple PDF viewer for that money. <b>Not updated for more than a year in 2025</b></h2>
         <dl class="mt2 f6">
-          <dt class="clip">Prijs</dt>
-          <dd class="ml0">€7,49</dd>
+          <dt class="clip">Price</dt>
+          <dd class="ml0">€7.49</dd>
         </dl>
       </div>
     </a>
@@ -407,12 +416,11 @@ Naast MobileSheets bestaan er ook een aantal andere apps voor bladmuziek. Hieron
       <div class="dtc w3">
         <img src="https://lh3.googleusercontent.com/CiF7eYJeXYctpfIyuAqAaLvISHFZQUMgs-MP0Udq3FE1dHjQ4duwNcmS8Phoo00R8iTq=s180" class="db w-100"/>
       </div>
-      <div class="dtc v-top pl2">
-        <h1 class="f6 f5-ns fw6 lh-title black mv0">Sheet Music</h1>
-        <h2 class="f6 fw4 mt2 mb0 black-60">Erg simpele app met geen ondersteuning voor aantekeningen. Wel gratis, dus in dat opzicht te overwegen, maar je kan dan beter een gratis PDF-viewer gebruiken die wél aantekeningen ondersteunt.</h2>
+      <div class="dtc v-top pl2"><h1 class="f6 f5-ns fw6 lh-title black mv0">Sheet Music</h1>
+        <h2 class="f6 fw4 mt2 mb0 black-60">Very simple app with no support for annotations. Free, so worth considering in that regard, but you're better off using a free PDF viewer that does support annotations.</h2>
         <dl class="mt2 f6">
-          <dt class="clip">Prijs</dt>
-          <dd class="ml0">Gratis</dd>
+          <dt class="clip">Price</dt>
+          <dd class="ml0">Free</dd>
         </dl>
       </div>
     </a>
@@ -424,16 +432,16 @@ Naast MobileSheets bestaan er ook een aantal andere apps voor bladmuziek. Hieron
       </div>
       <div class="dtc v-top pl2">
         <h1 class="f6 f5-ns fw6 lh-title black mv0">Adobe Acrobat Reader</h1>
-        <h2 class="f6 fw4 mt2 mb0 black-60">Niet specifiek voor bladmuziek bedoeld, maar als je geen geld wilt betalen voor je apps is dit misschien je beste keus. Ondersteunt aantekeningen, tikken om naar de volgende bladzijde te gaan en andere handige foefjes.</h2>
+        <h2 class="f6 fw4 mt2 mb0 black-60">Not specifically intended for sheet music, but if you don't want to pay for your apps, this might be your best choice. Supports annotations, tapping to go to the next page, and other handy tricks.</h2>
         <dl class="mt2 f6">
-          <dt class="clip">Prijs</dt>
-          <dd class="ml0">Gratis</dd>
+          <dt class="clip">Price</dt>
+          <dd class="ml0">Free</dd>
         </dl>
       </div>
     </a>
   </article>
 </main>
 
-Daarnaast heb je nog een aantal apps die bij een specifieke website voor bladmuziek horen, zoals [MuseScore](https://play.google.com/store/apps/details?id=com.musescore.playerlite), [Virtual Sheet Music](https://play.google.com/store/apps/details?id=com.virtualsheetmusic.vsheetmusic) en [IMSLP Browser](https://play.google.com/store/apps/details?id=com.imslp.app). Deze zijn minder goed onderhouden en ondersteunen bovendien uitsluitend bladmuziek van hun eigen bron. Ook zijn er allerhande apps waarmee je bladmuziek kan fotograferen om deze daarna door de app af te laten spelen. Dit soort apps zijn meer _gimmicks_ en voor het weergeven van bladmuziek niet bijzonder geschikt.
+In addition, you have a number of apps that belong to a specific sheet music website, such as [MuseScore](https://play.google.com/store/apps/details?id=com.musescore.playerlite), [Virtual Sheet Music](https://play.google.com/store/apps/details?id=com.virtualsheetmusic.vsheetmusic), and [IMSLP Browser](https://play.google.com/store/apps/details?id=com.imslp.app). These are less well-maintained and also only support sheet music from their own source. There are also all kinds of apps that allow you to photograph sheet music to have it played by the app. These types of apps are more gimmicks and not particularly suitable for displaying sheet music.
 
-Gebruik jij een andere app voor bladmuziek waar je tevreden over bent of ben ik nog handige _features_ van MobileSheets vergeten? Laat het me weten in de comments!
+Do you use another app for sheet music that you are satisfied with, or have I forgotten any handy features of MobileSheets? Let me know in the comments!

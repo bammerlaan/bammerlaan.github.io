@@ -84,6 +84,8 @@ Specifieke instellingen die handig zijn voor klassieke muziek zijn te vinden ond
 
 Druk vervolgens op "Tab volgorde" [_sic_]. Hier kan ik de tabs zoals in de afbeelding hieronder aanbevelen. De rest van de tabs zijn voor popmusici misschien interessanter, maar voor de meeste klassieke muziek niet erg relevant.
 
+**Update 2025: Tegenwoordig gebruik ik ook de tab voor afspeellijsten.**
+
 <figure class="br3 ma1 ba b--light-gray caption tc f7 mw5">
 <a href="/images/blog/2019/tabvolgorde.jpg">
   	<img src="/images/blog/2019/tabvolgorde.jpg" alt="Tabvolgorde" class="br3 br--top"></a>
@@ -333,6 +335,14 @@ Pakkende naam, niet? Hier zitten een aantal knoppen die ook in het overlayscherm
     	<img src="/images/blog/2019/aantekeningen.jpg" alt="Aantekeningen" class="br3 br--top"></a>
     	Lekker kliederen.
   </figure>
+
+<div class="flex items-center justify-center pa4 bg-lightest-blue navy">
+  <svg class="w3-ns w4" data-icon="info" viewBox="0 0 32 32" style="fill:currentcolor">
+    <title>info icon</title>
+    <path d="M16 0 A16 16 0 0 1 16 32 A16 16 0 0 1 16 0 M19 15 L13 15 L13 26 L19 26 z M16 6 A3 3 0 0 0 16 12 A3 3 0 0 0 16 6"></path>
+  </svg>
+  <span class="lh-title ml3">Update 2025: Dit ziet er een beetje anders uit tegenwoordig. Maar de meeste functies zijn precies hetzelfde, zij het op een andere plek.</span>
+</div>
 
 De aantekeningenmodus is vrij vanzelfsprekend. De knop voor "ongedaan maken" zit linksboven, dus leef je uit en experimenteer. Een paar tips:
 
