@@ -6,6 +6,7 @@ lang-ref: gnucash-latex-gcinvoice # Also create a directory for this in _data/co
 tags: technologie boekhouding latex gnucash factuur opensource linux
 # Run tag_generator.py for every new blog post!
 published: true
+tootId: 114061132476312355
 ---
 
 <figure class="fr-ns w-50-ns br3 ma1 ba b--light-gray">
