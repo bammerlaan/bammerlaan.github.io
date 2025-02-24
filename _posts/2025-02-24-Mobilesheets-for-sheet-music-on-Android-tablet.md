@@ -1,11 +1,12 @@
 ---
-title: MobileSheets gebruiken voor bladmuziek op Android-tablets
-date: 2019-08-22
-lang: nl
+title: Using MobileSheets for sheet music on Android tablets
+date: 2025-02-24
+lang: en
 lang-ref: mobile-sheets # Also create a directory for this in _data/comments. Throws error otherwise. Add empty file there to propagate on Github as well, then remove again.
-tags: android tablet bladmuziek technologie klassiekemuziek howto review
-tootId: 114060735046433954
+tags: android tablet bladmuziek technologie klassiekemuziek howto review 
 # Run tag_generator.py for every new blog post!
+published: false
+tootId: 114060735046433954
 ---
 
 <figure class="fr-ns w-20-ns br3 ma1 ba b--light-gray">
@@ -13,15 +14,17 @@ tootId: 114060735046433954
   	<figcaption class="tc caption f7">MobileSheets</figcaption>
 </figure>
 
-<!-- <div class="flex items-center justify-center pa4 bg-lightest-blue navy">
+<div class="flex items-center justify-center pa4 bg-lightest-blue navy">
   <svg class="w3-ns w4" data-icon="info" viewBox="0 0 32 32" style="fill:currentcolor">
     <title>info icon</title>
     <path d="M16 0 A16 16 0 0 1 16 32 A16 16 0 0 1 16 0 M19 15 L13 15 L13 26 L19 26 z M16 6 A3 3 0 0 0 16 12 A3 3 0 0 0 16 6"></path>
   </svg>
-  <span class="lh-title ml3">Dit is een kleine update van een oude blogpost uit 2019.</span>
-</div> -->
+  <span class="lh-title ml3">This is a translation of a blog post from 2019 on my web site. Most of the information should hold up today, but some of the content might be outdated.</span>
+</div>
 
-Het afgelopen jaar heb ik verschillende Android-apps uitgeprobeerd voor bladmuziek. (Apple's iOS heeft weliswaar meer keus, maar [ik hou niet zo van Apple](https://stallman.org/apple.html).) Mijn favoriet daarbij was [MobileSheets](https://play.google.com/store/apps/details?id=com.zubersoft.mobilesheetspro), waarvan ook een gratis uitprobeer-versie [hier](https://play.google.com/store/apps/details?id=com.zubersoft.mobilesheetsfree) te vinden is. Er bestaat een [handleiding](https://www.zubersoft.com/mobilesheets/manual.html), maar die kan wat overweldigend zijn. In deze blogpost zal ik laten zien welke opties het meest relevant zijn voor klassieke muziek.
+In the past year I have tried out many different Android apps for sheet music. (Apple's iOS might have more different apps, but [I don't like Apple much](https://stallman.org/apple.html).) My favourite was [MobileSheets](https://play.google.com/store/apps/details?id=com.zubersoft.mobilesheetspro), which also has a free trial version [here](https://play.google.com/store/apps/details?id=com.zubersoft.mobilesheetsfree). There is a [manual](https://www.zubersoft.com/mobilesheets/manual.html), but it can be a little overwhelming. In this blog post I will show the options that are most relevant for classical music.
+
+The three primary functions that make me 
 
 De drie voornaamste functies waardoor ik MobileSheets de beste app vind:
 
