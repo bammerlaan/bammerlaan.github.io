@@ -6,6 +6,7 @@ lang-ref: brahms-deutsches-requiem # Also create a directory for this in _data/c
 tags: muziek opname
 # Run tag_generator.py for every new blog post!
 published: true
+tootId: 114099596519978198
 ---
 Een van de laatste concerten die ik mocht geven voor de huidige nieuwe lockdown voor Covid-19 was het beroemde <i>Ein deutsches Requiem</i> van Johannes Brahms, met medesolist <a href="http://sopraan.elenora-hu.nl/">Elenora Hu</a> bij het <a href=https://www.toonkunst-utrecht.nl>Toonkunstkoor Utrecht</a> onder leiding van Jos Vermunt, met het <a href="https://www.usconcert.nl/">Utrechtsch Studenten Concert</a> als symfonieorkest. Toevallig speelde ik zelf ook ooit in dit orkest en zat ik zelfs in het bestuur. Een grote eer, kortom!<br><br>
 
