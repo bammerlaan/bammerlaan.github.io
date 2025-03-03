@@ -6,6 +6,7 @@ lang-ref: michans-cuerpo-mujer # Also create a directory for this in _data/comme
 tags: muziek opname
 # Run tag_generator.py for every new blog post!
 published: true
+tootId: 114099570944574088
 ---
 
 One of the pieces I performed during my final exam at the Utrecht Conservatory was <i>Cuerpo de Mujer</i> by <a href="https://en.wikipedia.org/wiki/Carlos_Mich%C3%A1ns">Carlos Micháns</a>. The song is part of his lieder bundle <i>Cinco Canciones de Amor</i> (1988) on text by Pablo Neruda. The composer enjoyed my performance enough to publish it on his own Youtube channel, and can be found below:<br><br>
