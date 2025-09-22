@@ -55,7 +55,7 @@ All of these options are obviously optional. Pick and choose what you think will
 
 # Gnome settings
 ## Display settings
-~~I set the resolution a bit lower, which makes everything bigger. In the case of this particular laptop I went from `1600 x 900` to `1368 x 768`.~~ *(Didn't do this after all... But it's something to consider!)* I also set the desktop wallpaper to ![full black](https://commons.wikimedia.org/wiki/File:Solid_black.svg): with the Auto Activities extension discussed below, the overview screen becomes the de-facto desktop. Having the desktop wallpaper display in a separate shape would just add confusion and clutter to the screen, I think.
+~~I set the resolution a bit lower, which makes everything bigger. In the case of this particular laptop I went from `1600 x 900` to `1368 x 768`.~~ *(Didn't do this after all... But it's something to consider!)* I also set the desktop wallpaper to [full black](https://commons.wikimedia.org/wiki/File:Solid_black.svg): with the Auto Activities extension discussed below, the overview screen becomes the de-facto desktop. Having the desktop wallpaper display in a separate shape would just add confusion and clutter to the screen, I think.
 
 ## Multitasking 
  - Disable Hot Corner
