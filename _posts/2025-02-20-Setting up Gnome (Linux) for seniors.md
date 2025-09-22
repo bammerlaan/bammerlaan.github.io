@@ -49,7 +49,7 @@ When I visited my grandparent the other day, they mentioned being sad to not be 
 
 The double-clicking alone was difficult already. And of course, the software was all meant for average power-users, too. Not to mention proprietary and constantly nagging to buy subscriptions for everything. Because Microsoft.
 
-Long story short: I've taken their laptop with me and set it up to be as simple as possible. And readable for an elderly person, of course. I went with Gnome, which for me was always limiting in its customizability. And too minimal. But in this case, that seemed perfect. I used Arch Linux for this particular computer, as that's the distribution I'm most familiar with. But you should be able to do this on any other distribution.
+Long story short: I've taken their laptop with me and set it up to be as simple as possible. And readable for a visually impaired elderly person, of course. I went with Gnome, which for me was always too limiting in its customizability. And too minimal. But in this case, that seemed perfect. I used Arch Linux for this particular computer, as that's the distribution I'm most familiar with. But you should be able to do this on any other distribution.
 
 All of these options are obviously optional. Pick and choose what you think will be useful for you. This article is meant for somewhat advanced users, able to install software themselves and able to change the occasional configuration file.
 
@@ -101,7 +101,7 @@ My Grandparent only really wanted a word processor. But they do pay for an inter
 
 <figure class="fr-ns w-50-ns br3 ma1 ba b--light-gray">
     <a href="/images/blog/2025/linux-seniors/Firefox.png">
-    <img src="/images/blog/2025/linux-seniors/Firefox.png" alt="A screenshot of the Firefox web browser's home page. The address bar at the top is visible, and the main area displays several website shortcuts as large icons. The icons are for Bulenradar (a weather radar), Nederlandse Spoorwegen (Dutch railways), Wikipedia, Kaart Nederland (a map of the Netherlands), Youtube, Puzzelsite.nl, TVgids (TV guide), and ANBO-PCOB (a Dutch organization for the elderly)" class="br3 br--top"></a>
+    <img src="/images/blog/2025/linux-seniors/Firefox.png" alt="A screenshot of the Firefox web browser's home page. The address bar at the top is visible, and the main area displays several website shortcuts as large icons. The icons are for Buienradar (a weather radar), Nederlandse Spoorwegen (Dutch railways), Wikipedia, Kaart Nederland (a map of the Netherlands), Youtube, Puzzelsite.nl, TVgids (TV guide), and ANBO-PCOB (a Dutch organization for the elderly)" class="br3 br--top"></a>
     <figcaption class="tc">Firefox.</figcaption>
 </figure>
 
