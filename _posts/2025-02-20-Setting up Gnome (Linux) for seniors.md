@@ -6,7 +6,7 @@ lang-ref: gnome-seniors # Also create a directory for this in _data/comments. Th
 tags: linux opensource gnome seniors software firefox geary abiword nautilus extensions plugins
 # Run tag_generator.py for every new blog post!
 published: true
-tootId: 114060735046433954
+tootId: 115250126060588737
 ---
 
 <figure class="w-100-ns br3 ma1 ba b--light-gray caption tc f7 center">
