@@ -112,7 +112,7 @@ My Grandparent only really wanted a word processor. But they do pay for an inter
 </figure>
 
 Here's what I went for, and some other useful software:
-- **Abiword**. Has much less options than LibreOffice, which is a good thing in this case.
+- **Abiword**. Has much fewer options than LibreOffice, which is a good thing in this case.
   - I configured Abiword to save in the `.odt` format by default, just in case they want to one day share a file. Changing the default file saving format in Abiword is not trivial, as it turns out. Find your `profile` file in Abiword's configuration directory (usually in `~/.config/abiword`), then find the section that starts with 
 
 ```
