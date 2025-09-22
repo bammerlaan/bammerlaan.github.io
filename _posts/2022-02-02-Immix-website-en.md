@@ -8,6 +8,20 @@ tags: muziek ensembles
 published: true
 ---
 
+I'm adding #Mastodon as a #comment system to all my old #blog posts. A reaction to this Mastodon post will show up as a comment.
+
+This was a post to announce the new website I made for the #Immix #Vocalensemble. These days, we're not performing regularly anymore, unfortunately. Though there are plans to perform our show on #Hyperacusis again.
+
+https://bammerlaan.nl/posts/Immix-website-en
+
+#Music
+#classicalmusic
+#professionalmusician
+#musiciansofmastodon
+#musician
+#Singing
+#classicalsinger
+
 After my participation to NKK NXT, the talent development programme of the [Netherlands Chamber Choir](https://www.nederlandskamerkoor.nl), our group decided to continue on together. We picked the name *Immix*, old English for mixture / to mix. The group became quite close during the project and I am happy to have the opportunity to continue making music with them.
 
 <a href="https://immixvocalensemble.com"><img src="/images/blog/2022/Immix_website.jpg" alt="Screenshot new website" title="The new website"/></a>

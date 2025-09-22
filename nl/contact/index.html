@@ -3,6 +3,11 @@ title: Contact
 lang: nl
 lang-ref: contact
 ---
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@idotj/mastodon-embed-timeline@4.7.0/dist/mastodon-timeline.min.css" integrity="sha256-Qi3H+bdH6RuMuyR1trAlG5bMWJGl9y3jPiTc1PWQFpI=" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/@idotj/mastodon-embed-timeline@4.7.0/dist/mastodon-timeline.umd.js" integrity="sha256-p6Xvd6OVSoasRG8M7ct20nnzGdnFMVapWyp9PGpW2Uo=" crossorigin="anonymous"></script>
+
+
 <div class="full-width-mobileview mb4 mb1-m mb0-l flex flex-wrap">
 	
 	<!-- Contact info cards -->
@@ -101,4 +106,18 @@ lang-ref: contact
 
 
 
-<!-- <iframe title="Pixelfed Profile Embed" class="full-width-mobileview fl w-50-ns h-50" src="https://pixey.org/bammerlaan/embed" class="pixelfed__embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script async defer src="https://pixey.org/embed.js"></script> -->
+<div id="mt-container" class="mt-container">
+	<div class="mt-body" role="feed">
+	  <div class="mt-loading-spinner"></div>
+	</div>
+  </div>
+  
+  <script>
+	const myTimeline = new MastodonTimeline.Init({
+  	instanceUrl: "https://mastodon.online",
+  	timelineType: "profile",
+  	userId: "000180745",
+  	profileName: "@idotj",
+});
+
+  </script>
