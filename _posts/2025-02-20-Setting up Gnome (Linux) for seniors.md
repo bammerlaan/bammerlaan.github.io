@@ -1,7 +1,7 @@
 ---
 title: Setting up Gnome (Linux) for seniors
 date: 2025-09-22
-lang: nl
+lang: en
 lang-ref: gnome-seniors # Also create a directory for this in _data/comments. Throws error otherwise. Add empty file there to propagate on Github as well, then remove again.
 tags: linux opensource gnome seniors software firefox geary abiword nautilus extensions plugins
 # Run tag_generator.py for every new blog post!
