@@ -129,6 +129,7 @@ Here, add the line `DefaultSaveFormat=".odt"`.
   - [I Hate Tabs](https://addons.mozilla.org/en-US/firefox/addon/i-hate-tabs-sdi-for-firefox/). I actually do not hate tabs, but my experience is that older users find them a difficult concept to understand.
     - I also turned on Firefox' new vertical tabs function, then dragged the sidebar to the left to effectively hide the tab bar.
   - Changed some scrollbar settings to be more friendly to the visually impaired following the instructions from [this useful blog post from Athena's blog](https://www.alm.website/blog/2023-10-12-configuring-firefox-scrollbars). ([Internet Archive copy](https://web.archive.org/web/20250108215957/https://www.alm.website/blog/2023-10-12-configuring-firefox-scrollbars))
+  - I have since taking the screenshot also removed the big firefox extension text in the address bar. For this, follow the instructions [here](https://discourse.mozilla.org/t/make-addressbar-text-extension-name-of-the-extension-shorter-or-hide/28026/3).
 - **Gnome Files** (i.e. Nautilus). Changed the settings to sort directories before files and to open items with a single mouse click.
 - **Rustdesk** for remote help
 - Some games. Gnome Mahjongg, AisleRiot Solitaire, Gbrainy and Gnome Crosswords.
