@@ -6,7 +6,7 @@ lang-ref: mastodon-nederland # Also create a directory for this in _data/comment
 tags: opensource onderwijs sociale-media mastodon x facebook instagram threads bluesky tiktok youtube
 # Run tag_generator.py for every new blog post!
 published: true
-tootId:
+tootId: 115316628084744361
 ---
 
 - [Wat is Mastodon en de Fediverse?](#wat-is-mastodon-en-de-fediverse)
