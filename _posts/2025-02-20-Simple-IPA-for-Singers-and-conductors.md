@@ -9,6 +9,15 @@ published: false
 tootId: 
 ---
 
+- [Versimpelen](#versimpelen)
+- [Gebruik](#gebruik)
+- [Onderzoek](#onderzoek)
+- [Waarom?](#waarom)
+  - [Download](#download)
+  - [Simple IPA](#simple-ipa)
+- [Maar hoe werkt het nou?](#maar-hoe-werkt-het-nou)
+
+
 Tijdens mijn master aan het [Koninklijk Conservatorium](https://koncon.nl) moest ik een thesis schrijven. En, als trotse alumnus van het [University College Roosevelt](https://www.ucr.nl/) was het een beetje een erekwestie om er ook echt iets moois van te maken. Nu, twee jaar na dato, leek het me leuk om het resultaat hier te delen: een versimpeld IPA voor zangers, dirigenten en componisten.
 
 <figure class="fr-ns w-50-ns br3 ma1 ba b--light-gray">
