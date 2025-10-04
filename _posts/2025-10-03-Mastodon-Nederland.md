@@ -169,6 +169,8 @@ Politiek:
 - [Partij voor de Dieren](https://mastodon.social/@PartijvoordeDieren)
 - [Volt](https://mastodon.nl/@voltnederland)
 
+Een lijstje met alle politici op Mastodon is [hier te vinden](https://politici-op-mastodon-7395c1.gitlab.io/), met dank aan [Jan Vlug](https://mastodon.social/@janvlug).
+
 Overig:
 - [KNMI](https://social.overheid.nl/@knmi)
 - [De Waag Amsterdam](https://waag.social/@waag)
