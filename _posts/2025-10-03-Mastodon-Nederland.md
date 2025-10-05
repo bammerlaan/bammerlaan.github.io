@@ -59,7 +59,9 @@ Vooropgesteld: omdat het leuk is! Het is tof om sociale media te gebruiken en te
 
 Ik heb ook een Pixelfed-account, daar zet ik leuk dingen op die meer om beeld draaien dan om tekst. En die posts deel ik dan weer met m'n Mastodon-account! Ik ben van plan om binnenkort eens al m'n YouTubevideos naar Peertube over te zetten, lijkt me ook leuk.
 
-Maar goed, die andere sociale media is vast ook leuk. En die hebben een marketing-budget en dus veel meer gebruikers. (Nog wel! Maar nu is er deze blogpost! *¡Viva la revolución!*)
+Oh! En dat vergeet ik nog wel eens, maar op normale sociale media zijn **advertenties**, of niet? Op de Fediverse niet. En je kan elk account blokkeren, dus als er een bedrijf is waarvan je niks wil zien, dan is dat met één druk op de knop opgelost. Er is wel een soort gentleman's agreement dat je wat geld doneert aan degene die je server draait, maar dat is geen verplichting.
+
+Maar goed, die andere sociale media zijn vast ook leuk. En die hebben een marketing-budget en dus veel meer gebruikers. (Nog wel! Maar nu is er deze blogpost! *¡Viva la revolución!*)
 
 ## Nerds
 
