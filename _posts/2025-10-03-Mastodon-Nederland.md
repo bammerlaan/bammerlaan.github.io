@@ -32,7 +32,7 @@ Het mooie is: alle sociale-medianetwerken die deel uitmaken van de Fediverse (Ma
 # Wat is Mastodon en de Fediverse?
 Ik zeg "de Fediverse", niet "het". Dat voelt raar op m'n tong.
 
-Er is hier al erg veel over geschreven en ik heb eigenlijk niet zo'n zin om hier in herhaling te vallen. Goede websites zijn de volgende:
+Er is hier al erg veel over geschreven en ik heb daar eigenlijk niet veel aan toe te voegen. Goede websites zijn de volgende:
 - [De Consumentenbond over Mastodon](https://www.consumentenbond.nl/internet-privacy/mastodon)
 - [Surf.nl over Mastodon](https://www.surf.nl/hoe-werkt-mastodon)
 - [Fedi.tips](https://fedi.tips/) (Engels) staat vol met goede tips voor nieuwe gebruikers van de Fediverse.
