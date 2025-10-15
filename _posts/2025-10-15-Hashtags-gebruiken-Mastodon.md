@@ -6,7 +6,7 @@ lang-ref: mastodon-gebruiken # Also create a directory for this in _data/comment
 tags: opensource onderwijs sociale-media mastodon moshidon
 # Run tag_generator.py for every new blog post!
 published: true
-tootId:
+tootId: 115378528216047321
 ---
 ### Inhoud
 - [Andere gebruikers volgen](#andere-gebruikers-volgen)
