@@ -158,6 +158,7 @@ Onderwijsinstellingen:
 - [Universiteit Groningen](https://mastodon.nl/@Bibliothecaris@social.edu.nl/115309359019410092)
 - [Universiteit Leiden](https://mastodon.nl/@universiteitleiden)
 - [Universiteit Utrecht](https://akademienl.social/@utrechtuniversity) (mijn alma mater!) (Maar niet meer gebruikt... boeee!) (Maar wel [recent in het nieuws](https://dub.uu.nl/nl/nieuws/mastodon-ook-beschikbaar-voor-universiteit-utrecht) over Mastodon!)
+- [XPUB](https://post.lurk.org/@xpub): Master of Arts in Fine Art and Design Rotterdam
 - [Surf.nl](https://social.edu.nl)
 
 Politiek:
