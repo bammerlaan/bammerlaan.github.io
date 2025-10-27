@@ -25,7 +25,7 @@ Ik ben bezig met een e-mail naar verschillende bedrijven en instanties in Nederl
 
 Ik vroeg me af of jullie op de hoogte zijn van Mastodon, Pixelfed en andere sociale media binnen de Fediverse. Dit is sociale media die door individuele mensen of instanties zelf gedraaid kan worden op kleinere en grotere servers en daardoor nooit in handen kan komen van één groot (mogelijk kwaadaardig) bedrijf. Dit wordt "gedecentraliseerd" genoemd. De video op deze website legt het goed uit: <a href="https://fediverse.info">https://fediverse.info</a>. Meer informatie over de Fediverse is daar ook te vinden.<br><br>
 
-Het mooie is: alle sociale-medianetwerken die deel uitmaken van de Fediverse (Mastodon, Pixelfed en Peertube zijn de drie grootste en bekenste, maar er zijn er meer!) staan met elkaar in verbinding. Een gebruiker van Mastodon kan posts op Peertube bekijken vanaf Mastodon, comments en likes achterlaten, etc. En het grootste voordeel: in mijn ogen is dit het enige ècht ethische alternatief op de grote bekende bedrijven die nu sociale media in handen hebben (en daarmee de informatievoorziening van een groot deel van de wereldbevolking!).<br><br>
+Het mooie is: alle sociale-medianetwerken die deel uitmaken van de Fediverse (Mastodon, Pixelfed en Peertube zijn de drie grootste en bekendste, maar er zijn er meer!) staan met elkaar in verbinding. Een gebruiker van Mastodon kan posts op Peertube bekijken vanaf Mastodon, comments en likes achterlaten, etc. En het grootste voordeel: in mijn ogen is dit het enige ècht ethische alternatief op de grote bekende bedrijven die nu sociale media in handen hebben (en daarmee de informatievoorziening van een groot deel van de wereldbevolking!).<br><br>
 
 [...]</blockquote>
 
@@ -37,7 +37,7 @@ Er is hier al erg veel over geschreven en ik heb daar eigenlijk niet veel aan to
 - [Surf.nl over Mastodon](https://www.surf.nl/hoe-werkt-mastodon)
 - [Fedi.tips](https://fedi.tips/) (Engels) staat vol met goede tips voor nieuwe gebruikers van de Fediverse.
 
-Wat veel Nederlandse sites die over Mastodon schrijven vaak niet vermelden is dat hele Fediverse-gedeelte. Misschien omdat schrijvers dan bang zijn dat het te complex voor hun lezers wordt? Maar jij bezoekt mijn blog, dus intellectueel kan je dit vast aan, knapperd. Het is in ieder geval wel tof, en ik heb ook gemerkt dat mensen het juist interessant vinden. 
+Dat hele gedeelte over de Fediverse wordt vaak niet vermeld door Nederlandse sites die over Mastodon schrijven. Misschien omdat schrijvers dan bang zijn dat het te complex voor hun lezers wordt? Maar jij bezoekt mijn blog, dus intellectueel kan je dit vast aan, knapperd. Het is in ieder geval wel tof en ik heb ook gemerkt dat mensen het juist interessant vinden. 
 
 Als je een account hebt op Mastodon kan je dus ook reageren, "vind-ik-leuk"-en, noem het maar, op berichten elders op de Fediverse. Zij het een foto op Pixelfed, een video op Peertube... En vice versa, uiteraard.
 
@@ -47,7 +47,7 @@ Er is ook laatst een mooie video over de Fediverse gemaakt door Mastodon-celebri
 
 Deze video staat overigens op [Peertube](https://joinpeertube.org/), het Fediverse-alternatief op YouTube!
 
-Je hebt erg veel keus als het aankomt op sociale media met zo'n Fediverse-verbinding: **Mastodon**, maar ook **Pixelfed** (alternatief op Instagram), **Peertube** (alternatief op YouTube), **Friendica** (alternatief op Facebook), **Lemmy** (alternatief op Reddit), **Loops** (alternatief op TikTok)... Een grotere lijst is [hier](https://fediverse.party/) mooi te vinden. Als je echt álle opties wil zien, dan staan die [hier](https://fediverse.party/en/miscellaneous/).
+Je hebt erg veel keus als het aankomt op sociale media met zo'n Fediverse-verbinding: **Mastodon** (alternatief op X/Twitter), maar ook **Pixelfed** (alternatief op Instagram), **Peertube** (alternatief op YouTube), **Friendica** (alternatief op Facebook), **Lemmy** (alternatief op Reddit), **Loops** (alternatief op TikTok)... Een grotere lijst is [hier](https://fediverse.party/) mooi te vinden. Als je echt álle opties wil zien, dan staan die [hier](https://fediverse.party/en/miscellaneous/).
 
 En dan moet je dus nog een server (ook wel *Instance*) uitkiezen die een van die sociale media aanbiedt. Klinkt misschien overweldigend, en dat is het ook wel een beetje, maar onder de streep maakt het eigenlijk niet zo veel uit waar je een account maakt. Zoals in die video: ze zijn toch allemaal verbonden met elkaar. Ik zou beginnen met [Mastodon](https://fedi.garden/), daarna kan je altijd nog andere proberen.
 
@@ -61,7 +61,7 @@ Ik heb ook een Pixelfed-account, daar zet ik leuk dingen op die meer om beeld dr
 
 Oh! En dat vergeet ik nog wel eens, maar op normale sociale media zijn **advertenties**, of niet? Op de Fediverse niet. En je kan elk account blokkeren, dus als er een bedrijf is waarvan je niks wil zien, dan is dat met één druk op de knop opgelost. Er is wel een soort gentleman's agreement dat je wat geld doneert aan degene die je server draait, maar dat is geen verplichting.
 
-Maar goed, die andere sociale media zijn vast ook leuk. En die hebben een marketing-budget en dus veel meer gebruikers. (Nog wel! Maar nu is er deze blogpost! *¡Viva la revolución!*)
+Maar goed, de "normale" sociale media zijn vast ook leuk. En die hebben een marketing-budget en dus veel meer gebruikers. (Nog wel! Maar nu is er deze blogpost! *¡Viva la revolución!*)
 
 ## Nerds
 
@@ -132,7 +132,7 @@ Echter, zoals we ooit concludeerden tijdens mijn tijd bij NKK-NXT: kunst is poli
 
 Binnen de klassieke muziek ben ik eigenlijk de enige die ik ken die uitsluitend op de Fediverse te vinden is. Verder zit iedereen op Instagram, Facebook, TikTok, misschien ook X... en daardoor loop ik waarschijnlijk wel wat werk mis. (Dus mocht je nou zeggen, hee, ik wil klassieke zang op mijn evenement—je weet me te vinden.) Ik heb daar ethisch een probleem mee, dus werp ik me maar op als digitale activist. 
 
-In mijn ogen is het ook gewoon een matige langetermijnsstrategie om uitsluitend die grotere sociale media te gebruiken. Want dat draagt toch wel bij aan rechtste partijen, die nu volop aan de macht komen. En die staan nou niet zo bekend om hun geweldige liefde voor cultuur. Ja, die engerds bij FvD roepen wel een beetje dingen in die richting, want klassieke muziek heeft ook wel veel van dat Grote Duitse erfgoed van Bach, Mahler en ...[\*kuch\*... Wagner](https://www.britannica.com/biography/Richard-Wagner-German-composer/Wagners-antisemitism). Maar intussen wordt wel alle cultuursubsidie stopgezet. Dan hou je inderdaad alleen de klassieke muziek waar iedereen altijd naartoe wil en die verkoopt, zoals de Matthäuspassie. En weinig politiek-betrokken of -kritische cultuur.
+In mijn ogen is het ook gewoon een matige langetermijnsstrategie om uitsluitend die grotere sociale media te gebruiken. Want dat draagt toch wel bij aan rechtste partijen, die nu volop aan de macht komen. En die staan nou niet zo bekend om hun geweldige liefde voor cultuur. Ja, die engerds bij FvD roepen wel een beetje dingen in die richting, want klassieke muziek heeft ook wel veel van dat Grote Duitse erfgoed van Bach, Mahler en ...[\*kuch\*... Wagner](https://www.britannica.com/biography/Richard-Wagner-German-composer/Wagners-antisemitism). Maar intussen wordt wel alle cultuursubsidie stopgezet. Dan hou je inderdaad alleen de klassieke muziek over waar iedereen altijd naartoe wil en die verkoopt, zoals de Matthäuspassie. En weinig politiek-betrokken of -kritische cultuur.
 
 # Nederlandse bedrijven en instanties nu op de Fediverse
 
