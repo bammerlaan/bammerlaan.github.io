@@ -57,6 +57,8 @@ Hopelijk overwegen jullie deze stap om de informatievoorziening in de wereld iet
 
 Met hartelijke groet,</blockquote>
 
-Nog een relevante link hierover: [There is One Fediverse. There are a Million Pickleball Courts](https://jaz.co.uk/2025/10/30/there-is-one-fediverse-there-are-a-million-pickleball-courts/).
+Relevante links:
+- [There is One Fediverse. There are a Million Pickleball Courts](https://jaz.co.uk/2025/10/30/there-is-one-fediverse-there-are-a-million-pickleball-courts/).
+- [Niet Zonder!](https://nietzonder.nl/)
 
 Heb je deze brief verstuurd? Laat het weten in de comments of stuur me een mention op Mastodon. Ik sta volledig open voor verbeteringen of nieuwe versies hiervan—beschouw het vooral als een eerste opzetje.
