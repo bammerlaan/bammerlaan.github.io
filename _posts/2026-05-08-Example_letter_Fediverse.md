@@ -6,7 +6,7 @@ lang-ref: voorbeeldbrief-fediverse # Also create a directory for this in _data/c
 tags: opensource socialmedia mastodon x facebook instagram threads bluesky tiktok youtube
 # Run tag_generator.py for every new blog post!
 published: true
-tootId: 
+tootId: 116541363696795090
 ---
 
 I read this post on Mastodon a couple of weeks ago:
