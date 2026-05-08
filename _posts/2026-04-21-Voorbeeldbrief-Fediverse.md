@@ -34,9 +34,9 @@ Ik deel deze tekst onder de **CC0-licentie** (Publiek Domein). Dit betekent dat 
 
 
 <blockquote>
-Beste team van [BEDRIJF],<br><br>
+Beste team van <b>[<mark>NAAM ORGANISATIE</mark>]</b>,<br><br>
 
-Ik was op jullie website aan het rondkijken en ik ben groot fan van wat jullie doen. Het viel me echter op dat jullie voor sociale media uitsluitend vertrouwen op platforms van <i>big tech</i>-bedrijven (X, Facebook, Instagram, Bluesky, etc.).<br><br>
+Ik was op jullie website aan het rondkijken en ik ben groot fan van wat jullie doen. Ik wil wel graag een klacht indienen: het viel me echter op dat jullie voor sociale media uitsluitend vertrouwen op platforms van <i>big tech</i>-bedrijven (X, Facebook, Instagram, Bluesky, etc.).<br><br>
 
 Ik wil jullie graag wijzen op de Fediverse, een netwerk van onafhankelijke sociale media zoals Mastodon en Pixelfed. <br><br>
 
@@ -48,7 +48,7 @@ Zij hebben de macht over het algoritme dat bepaalt wat gebruikers zien op hun we
 
 Ook in Nederland is er een beweging gaande voor deze overstap. Meer hierover is te vinden op https://makesocialssocialagain.nl. De politieke partij Bij1 host bijvoorbeeld een eigen server (https://social.bij1.org/@BIJ1), maar je kunt ook een account nemen bij een bestaande, betrouwbare server, zoals DeGoedeZaak bij Mastodon.world (https://mastodon.world/@degoedezaak). Voor professionele ondersteuning in Nederland kun je bijvoorbeeld terecht bij partijen als ProcoliX (https://procolix.eu/, die ervaring hebben met het veilig en betrouwbaar hosten van Fediverse-omgevingen.<br><br>
 
-Ik snap dat er nog maar een klein percentage van Nederland op de Fediverse zit en dat daardoor de prioriteit voor jullie waarschijnlijk wat lager is. Maar door de toenemende zorgen over Big Tech is er een aanzienlijke groep potentiële gebruikers—zoals ikzelf—die weigert die platforms nog te gebruiken en die sympathiek zal zijn naar instanties die zich aansluiten op de Fediverse. [BEDRIJF] heeft best wel een voorbeeldfunctie, dus ik denk dat het best zou helpen als jullie Mastodon (of een ander Fediverse-platform) behandelen als een volwaardig alternatief. (Eigenlijk zelfs het beste alternatief!). Verandering moet èrgens beginnen, tenslotte... Daar weten jullie alles van, lijkt me.<br><br>
+Ik snap dat er nog maar een klein percentage van Nederland op de Fediverse zit en dat daardoor de prioriteit voor jullie waarschijnlijk wat lager is. Maar door de toenemende zorgen over Big Tech is er een aanzienlijke groep potentiële gebruikers—zoals ikzelf—die weigert die platforms nog te gebruiken en die sympathiek zal zijn naar instanties die zich aansluiten op de Fediverse. Uw organisatie heeft best wel een voorbeeldfunctie, dus ik denk dat het best zou helpen als jullie Mastodon (of een ander Fediverse-platform) behandelen als een volwaardig alternatief. (Eigenlijk zelfs het beste alternatief!). Verandering moet èrgens beginnen, tenslotte... Daar weten jullie alles van, lijkt me.<br><br>
 
 Het is bovendien een kleine moeite: wat jullie op 'reguliere' sociale media delen, kan óók op Mastodon gedeeld worden. Daar bestaan eventueel zelfs betaalde diensten voor, zoals https://publer.com/ en https://buffer.com/mastodon.<br><br>
 
@@ -57,8 +57,15 @@ Hopelijk overwegen jullie deze stap om de informatievoorziening in de wereld iet
 
 Met hartelijke groet,</blockquote>
 
-Relevante links:
-- [There is One Fediverse. There are a Million Pickleball Courts](https://jaz.co.uk/2025/10/30/there-is-one-fediverse-there-are-a-million-pickleball-courts/).
-- [Niet Zonder!](https://nietzonder.nl/)
+### Meer informatie & Bronnen
 
-Heb je deze brief verstuurd? Laat het weten in de comments of stuur me een mention op Mastodon. Ik sta volledig open voor verbeteringen of nieuwe versies hiervan—beschouw het vooral als een eerste opzetje.
+*   [There is One Fediverse. There are a Million Pickleball Courts](https://jaz.co.uk/2025/10/30/there-is-one-fediverse-there-are-a-million-pickleball-courts/). Een pleidooi voor decentralisatie als oplossing voor de toxiciteit van grote sociale medianetwerken.
+*   [Niet Zonder!](https://nietzonder.nl/) Een uitgebreide lijst met redenen om over te stappen op open-source alternatieven voor Big Tech-platformen.
+*   [#MakeSocialsSocialAgain](https://makesocialssocialagain.nl/). Een campagne van Bits of Freedom, DeGoedeZaak, Noorderlicht, PublicSpaces en Waag Futurelab om van X af te stappen.
+*   [Fedicate.org](https://fedicate.org/). Een heldere, stapsgewijze gids om de Fediverse te begrijpen en lid te worden.
+*   [Fedi.tips](https://fedi.tips/). Een informele, niet-technische startersgids voor alles over Mastodon en meer.
+*   [The Federation](https://the-federation.info/). Een platform dat gedetailleerde statistieken biedt en de hoeveelheid actieve gebruikers op de Fediverse toont.
+
+Iets anders: [Christiaan Jacobs](https://mastodon.nl/@cejjacobs@mastodon.social) gaf de tip dat de meeste organisaties [pas wat doen met dit soort mailtjes als het woord "klacht" genoemd wordt](https://mastodon.social/@cejjacobs/116527152415010322). Dan moet er over gerapporteerd worden bij het management. Ik heb daarom de brief hierboven wat aangepast om het woord "klacht" te noemen.
+
+Heb je deze brief verstuurd? Laat het weten in de comments of stuur me een mention op de Fediverse. Ik sta volledig open voor verbeteringen of nieuwe versies hiervan—beschouw het vooral als een eerste opzetje.
