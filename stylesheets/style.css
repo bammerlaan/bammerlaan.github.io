@@ -56,18 +56,28 @@ h1 {
   color: var(--bammerlaan-grijs);
   font-family: "Roboto", sans-serif;
   font-weight: 100;
+  font-size: 2.25rem;
 }
 
 h2 {
   color: var(--bammerlaan-grijs);
   font-family: "Roboto", sans-serif;
   font-weight: 300;
+  font-size: 1.75rem;
+}
+
+h3 {
+  color: var(--bammerlaan-grijs);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.35rem;
 }
 
 h4 {
+  color: var(--bammerlaan-grijs);
   font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-size: 1rem;
+  font-weight: 700;
+  font-size: 1.1rem;
 }
 
 table {
@@ -325,4 +335,9 @@ nav ul li {
   width: 1em;
   height: 1em;
   vertical-align: -0.125em;
+}
+
+/* Offset all headings with IDs when scrolled into view */
+h1[id], h2[id], h3[id] {
+  scroll-margin-top: 90px; /* Adjust this to match the height of your navbar + a bit of padding */
 }

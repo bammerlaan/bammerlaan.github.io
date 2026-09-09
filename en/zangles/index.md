@@ -19,13 +19,13 @@ My own background is in classical voice training, and this is also the method I 
 
 I am a member of the [Dutch association of singing teachers](https://www.zangpedagogen.nl). I am fully bilingual with an academic proficiency in the English language.
 
-A try-out lesson is always free. During this lesson we will look at what you are hoping to achieve and how I can help you with that. It helps if you bring something along to sing! 
+### Trial lesson and intake
 
-I teach in Utrecht, at my house in Zuilen. If desired I can also teach on location.
+An initial trial lesson and intake lasts 45 to 60 minutes. We will look at your current voice use, your goals and wishes, and get straight to work. Be sure to bring something along to sing! This way, you immediately get a clear picture of my approach and a full first lesson.
 
-## Rates 2025
+I teach in Utrecht, at my vocal studio at home in Zuilen. Teaching on location is also possible upon request.
 
-<a name="tarieven-en-voorwaarden"></a>
+<h2 id="tarieven-en-voorwaarden">Rates 2026</h2>
 
 There are three options for following singing lessons:
 
@@ -33,27 +33,27 @@ There are three options for following singing lessons:
 2. 4-lesson package
 3. 10-lesson package
 
-|	Separate lessons	|	
-|	------------------	|
-|	€ 35,00 per lesson of 30 minutes			|
-|	€ 50,00 per lesson of 45 minutes  |	
-|	€ 65,00 per lesson of 60 minutes 			|	
+|   Single lessons    |
+|   ------------------  |
+|   € 40,00 per lesson of 30 minutes          |
+|   € 55,00 per lesson of 45 minutes  |
+|   € 70,00 per lesson of 60 minutes          |
 
 <br>
 
-|	4-lesson package	|	Total |
-|	------------------	|	:------------------:	|
-|	€ 32,50 per lesson of 30 minutes			| € 130,00 |
-|	€ 47,50 per lesson of 45 minutes  |	€ 190,00 |
-|	€ 62,50 per lesson of 60 minutes 			| € 250,00 |
+|   4-lesson package    |   Total |
+|   ------------------  |   :------------------:    |
+|   € 38,00 per lesson of 30 minutes          |    € 152,00 |
+|   € 52,00 per lesson of 45 minutes          |    € 208,00 |
+|   € 66,00 per lesson of 60 minutes          |    € 264,00 |
 
 <br>
 
-|	10-lesson package	|	Total |
-|	------------------	|	:------------------:	|
-|	€ 31,00 per lesson of 30 minutes			| € 310,00 |
-|	€ 46,00 per lesson of 45 minutes  |	€ 460,00 |
-|	€ 61,00 per lesson of 60 minutes 			| € 610,00 |
+|   10-lesson package   |   Total |
+|   ------------------  |   :------------------:    |
+|   € 37,00 per lesson of 30 minutes          |   € 370,00 |
+|   € 50,00 per lesson of 45 minutes          |   € 500,00 |
+|   € 65,00 per lesson of 60 minutes          |   € 650,00 |
 
 <!-- |	Rates 2021-2022		|	Normal rate			|	Reduced rate	|
 |	------------------  | :------------------:	|:-----------------:|				

@@ -3,7 +3,6 @@ title: Zanglessen in Utrecht
 lang: nl
 lang-ref: zanglessen
 ---
-
 <img src="/images/zanglesfoto.jpg" alt="Sebastiaan Ammerlaan" class="fr w-third ml-auto br3-ns bt bb ba-ns b--light-gray">
 
 De menselijke stem is het muziekinstrument met de kortste afstand tussen jou en muziek. Het stelt je in staat om muziek precies zo te laten klinken als jij hem in je hoofd hebt: een directe vertaling van jouw muzikale verbeelding. Er zit geen instrument tussen jou en de muziek en je bent nergens van afhankelijk.
@@ -18,11 +17,14 @@ Mijn eigen achtergrond ligt in klassieke zang en de klassieke zangtechniek, en v
 
 Ik ben lid van de [Nederlandse vereniging van zangpedagogen](https://www.zangpedagogen.nl).
 
-Een proefles is altijd gratis. Tijdens deze les kijken we samen naar wat je hoopt te bereiken en hoe ik je daarbij kan helpen. Neem ook iets mee om voor te zingen! Ik geef mijn lessen in Utrecht&mdash;bij mij thuis in Zuilen. Desgewenst is les aan huis ook mogelijk.
+### Proefles en intake
 
-## Tarieven 2025
+Een eerste kennismaking en intake duurt 45 tot 60 minuten. We kijken naar je huidige stemgebruik, je doelen en wensen, en we gaan direct praktisch aan de slag. Neem ook iets mee om voor te zingen! Zo krijg je meteen een goed beeld van mijn werkwijze en een volwaardige eerste les mee.
 
-<a name="tarieven-en-voorwaarden"></a>
+ Ik geef mijn lessen in Utrecht, in mijn zangstudio aan huis in Zuilen. Desgewenst is les aan huis ook mogelijk. <a name="tarieven-en-voorwaarden"></a>
+
+
+<h2 id="tarieven-en-voorwaarden">Tarieven 2026</h2>
 
 Er zijn drie mogelijkheden voor het volgen van zanglessen:
 
@@ -30,28 +32,27 @@ Er zijn drie mogelijkheden voor het volgen van zanglessen:
 2. Lesblokken van 4 lessen
 3. Lesblokken van 10 lessen
 
-|	Losse lessen	|	
+|	Losse lessen	|
 |	------------------	|
-|	€ 35,00 per les van 30 minuten			|
-|	€ 50,00 per les van 45 minuten  |	
-|	€ 65,00 per les van 60 minuten 			|	
+|	€ 40,00 per les van 30 minuten			|
+|	€ 55,00 per les van 45 minuten  |
+|	€ 70,00 per les van 60 minuten 			|
 
 <br>
 
 |	Lesblok van 4 lessen	|	Totaal |
 |	------------------	|	:------------------:	|
-|	€ 32,50 per les van 30 minuten			| € 130,00 |
-|	€ 47,50 per les van 45 minuten  |	€ 190,00 |
-|	€ 62,50 per les van 60 minuten 			| € 250,00 |
+|	€ 38,00 per les van 30 minuten			|    € 152,00 |
+|	€ 52,00 per les van 45 minuten          |    € 208,00 |
+|   € 66,00 per les van 60 minuten          |    € 264,00 |
 
 <br>
 
 |	Lesblok van 10 lessen	|	Totaal |
 |	------------------	|	:------------------:	|
-|	€ 31,00 per les van 30 minuten			| € 310,00 |
-|	€ 46,00 per les van 45 minuten  |	€ 460,00 |
-|	€ 61,00 per les van 60 minuten 			| € 610,00 |
-
+|   € 37,00 per les van 30 minuten          |   € 370,00 |
+|   € 50,00 per les van 45 minuten          |   € 500,00 |
+|   € 65,00 per les van 60 minuten          |   € 650,00 |
 
 <!-- 
 |	Tarieven 2025	|	Normaal tarief			|	Gereduceerd tarief	|
@@ -61,16 +62,18 @@ Er zijn drie mogelijkheden voor het volgen van zanglessen:
 |	Enkele les			|	€ 53,-					|	€ 33,-				| -->
 
 <!-- * Het **gereduceerd tarief** geldt voor jeugd onder de 21 jaar. -->
+
 * Les aan huis in overleg en voor een nader overeen te komen meerprijs.
 * Tarieven zijn gebaseerd op vakbondstarieven van de [NTB](https://www.ntb.nl/)
 
 # Algemene voorwaarden
 
 <!-- *   **Prijzen zijn inclusief 21% BTW.** (Gereduceerd tarief betaalt geen BTW, zie de [website van de Belastingdienst](http://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/tarieven_en_vrijstellingen/vrijstellingen/onderwijs/vrijstelling_voor_onderwijs_in_muziek_dans_drama_beeldende_vorming_en_circustechnieken).) -->
-*   Elk blok dient betaald te zijn bij aanvang van de eerste les van het blok. Als dit niet gebeurd is wordt het tarief voor een enkele les in rekening gebracht.
-*   Lesgeld dat eenmaal is betaald wordt niet geretourneerd.
-*   Betaling geschiedt bij voorkeur per overschrijving.
-*   Een zangles kan uiterlijk 24 uur voor de afgesproken lestijd afgezegd worden. Daarna breng ik het lesgeld in rekening (overmacht daargelaten in overleg).
-*   De les duurt 60 minuten, inclusief binnenkomen en weggaan.
-*   Ik behoud mij het recht voor om zonder opgave van reden een les af te zeggen. Deze les wordt vanzelfsprekend ingehaald of vergoed.
+
+* Elk blok dient betaald te zijn bij aanvang van de eerste les van het blok. Als dit niet gebeurd is wordt het tarief voor een enkele les in rekening gebracht.
+* Lesgeld dat eenmaal is betaald wordt niet geretourneerd.
+* Betaling geschiedt bij voorkeur per overschrijving.
+* Een zangles kan uiterlijk 24 uur voor de afgesproken lestijd afgezegd worden. Daarna breng ik het lesgeld in rekening (overmacht daargelaten in overleg).
+* De les duurt 60 minuten, inclusief binnenkomen en weggaan.
+* Ik behoud mij het recht voor om zonder opgave van reden een les af te zeggen. Deze les wordt vanzelfsprekend ingehaald of vergoed.
 * Ik hanteer het eerste kwartaal van elk kalenderjaar als moment voor eventuele tariefwijzigingen.
