@@ -21,7 +21,7 @@ I am a member of the [Dutch association of singing teachers](https://www.zangped
 
 ### Trial lesson and intake
 
-An initial trial lesson and intake lasts 45 to 60 minutes. We will look at your current voice use, your goals and wishes, and get straight to work. Be sure to bring something along to sing! This way, you immediately get a clear picture of my approach and a full first lesson.
+An initial trial lesson and intake takes **45 to 60 minutes** and costs **€30**. We will look at your current voice use, your goals and wishes, and get straight to work. Be sure to bring something along to sing! This way, you immediately get a clear picture of my approach and a full first lesson.
 
 I teach in Utrecht, at my vocal studio at home in Zuilen. Teaching on location is also possible upon request.
 
