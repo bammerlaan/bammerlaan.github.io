@@ -19,7 +19,7 @@ Ik ben lid van de [Nederlandse vereniging van zangpedagogen](https://www.zangped
 
 ### Proefles en intake
 
-Een eerste kennismaking en intake duurt 45 tot 60 minuten. We kijken naar je huidige stemgebruik, je doelen en wensen, en we gaan direct praktisch aan de slag. Neem ook iets mee om voor te zingen! Zo krijg je meteen een goed beeld van mijn werkwijze en een volwaardige eerste les mee.
+Een eerste kennismaking en intake duurt **45 tot 60 minuten** en kost **€30,-**. We kijken naar je huidige stemgebruik, je doelen en wensen, en we gaan direct praktisch aan de slag. Neem ook iets mee om voor te zingen! Zo krijg je meteen een goed beeld van mijn werkwijze en een volwaardige eerste les mee.
 
  Ik geef mijn lessen in Utrecht, in mijn zangstudio aan huis in Zuilen. Desgewenst is les aan huis ook mogelijk. <a name="tarieven-en-voorwaarden"></a>
 
