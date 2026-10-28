@@ -326,8 +326,6 @@ These are pretty good. The problem is mostly with rule 2, you could say. I mean,
 
 The triangle sticker does that better, but doesn't follow rule 1: it focuses on the underlying mechanism and not the thing itself!
 
-(note to self: mention https://mastodon.nl/@FediverseSymbol@typo.social in the post) 
-
 <div class="cb pt5"></div>
 
 ### A sticker that does work
