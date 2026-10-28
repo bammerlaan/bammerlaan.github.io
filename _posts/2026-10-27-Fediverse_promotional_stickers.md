@@ -166,7 +166,7 @@ This is the sticker that actually prompted me to write this post in the first pl
 
 <p><a href="https://www.etsy.com/listing/1419893938/fediverse-recruitment-sticker-log-off" target="_blank">Source</a></p>
 
-Another good example of focusing on what you'll avoid (Nazis). On top of that, there's a good bit of shaming there, suggesting that people sticking around on Twitter are basically Nazis. Not great, marketing-wise. (Not to mention the poor design of this thing. Unreadable. Way too much text.)
+Another good example of focusing on what you'll avoid (Nazis). On top of that, there's a good bit of shaming there, suggesting that people sticking around on Twitter are basically Nazis. Not great, marketing-wise. (Not to mention the design. There's too much text and it's quite hard to read.)
 
 A better approach would be to point people at what they'll gain: a calm, predictable timeline where you actually see what your friends post, instead of what an ad-driven algorithm wants you to rage-click. Which is of course harder to put into a punchy one-liner, but them's the breaks.
 
