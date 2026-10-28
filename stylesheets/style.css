@@ -138,10 +138,12 @@ th {
   border-bottom: 1px dotted #ccc;
 } /* <hr> tags. */
 .markdown-body blockquote {
-  background: #f9f9f9;
-  border-left: 0.2rem solid #ccc;
-  padding-left: 3.8rem;
-} /* Opmaak blockquotes. Misschien oplossing voor contact-pagina? */
+  background: #f4f1f8; /* Slightly deeper tint for better contrast */
+  border-left: 0.4rem solid var(--bammerlaan-blauw); /* Thicker border using your primary blue */
+  padding-left: 3.5rem;
+  font-style: italic; /* Makes it instantly recognizable as quoted text */
+  color: var(--bammerlaan-grijs); /* Ensures text uses your defined neutral dark tone */
+} /* Opmaak blockquotes. */
 
 /* end Markdown styles */
 
