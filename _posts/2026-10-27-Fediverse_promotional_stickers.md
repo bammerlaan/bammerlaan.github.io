@@ -6,7 +6,7 @@ lang-ref: fediverse-promo-stickers # Also create a directory for this in _data/c
 tags: opensource socialmedia mastodon x facebook instagram threads bluesky tiktok youtube
 # Run tag_generator.py for every new blog post!
 published: true
-tootId:
+tootId: 117519890971823189
 ---
 
 The Fediverse is important to me. I realise it's quite a nerdy thing to get worked up about, but I really see it as a solution to a problem that I think people don't care about. A problem that people *should* care about a lot more.
